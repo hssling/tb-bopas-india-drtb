@@ -16,12 +16,9 @@ authors:
     given-names: "H S"
     orcid: "https://orcid.org/0000-0002-4771-8285"
     affiliation: "Department of Community Medicine, Shridevi Institute of Medical Sciences and Research Hospital, Tumkur, Karnataka, India"
-  - family-names: "Chandrakala"
-    given-names: "D"
-    affiliation: "Department of Anesthesia, Koratagere Taluka Hospital, Department of Health and Family Welfare, Tumkur, Karnataka, India"
 license: CC-BY-4.0
 doi: "10.5281/zenodo.24167197"
-version: "1.0.0"
+version: "1.0.1"
 date-released: "2026-11-12"
 repository-code: "https://github.com/hssling/tb-bopas-india-drtb"
 keywords:

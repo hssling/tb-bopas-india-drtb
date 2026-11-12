@@ -7,10 +7,6 @@
       "name": "Siddalingaiah, H S",
       "affiliation": "Department of Community Medicine, Shridevi Institute of Medical Sciences and Research Hospital, Tumkur, Karnataka, India",
       "orcid": "0000-0002-4771-8285"
-    },
-    {
-      "name": "Chandrakala, D",
-      "affiliation": "Department of Anesthesia, Koratagere Taluka Hospital, Department of Health and Family Welfare, Tumkur, Karnataka, India"
     }
   ],
   "license": "cc-by-4.0",
@@ -36,5 +32,5 @@
       "resource_type": "publication-article"
     }
   ],
-  "notes": "Surveillance inputs are derived from the WHO Global TB Programme country data for India and were cross-checked against the India TB Report 2024. Paste the DOI minted for this deposit into the manuscript's data-availability statement and title page before submission."
+  "notes": "Surveillance inputs are derived from the WHO Global TB Programme country data for India and were cross-checked against the India TB Report 2024. Paste the DOI minted for this deposit into the manuscript's data-availability statement and title page before submission. Version 1.0.1 corrects the creator list to match the single-authored manuscript; the code, data and outputs are unchanged from v1.0.0."
 }
