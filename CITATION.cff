@@ -20,6 +20,10 @@ authors:
     given-names: "D"
     affiliation: "Department of Anesthesia, Koratagere Taluka Hospital, Department of Health and Family Welfare, Tumkur, Karnataka, India"
 license: CC-BY-4.0
+doi: "10.5281/zenodo.24167197"
+version: "1.0.0"
+date-released: "2026-11-12"
+repository-code: "https://github.com/hssling/tb-bopas-india-drtb"
 keywords:
   - tuberculosis
   - drug-resistant tuberculosis

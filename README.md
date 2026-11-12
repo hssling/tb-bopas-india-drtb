@@ -1,5 +1,8 @@
 # TB-BOPAS — a Bayesian priority-action score applied to India's drug-resistant tuberculosis surveillance, 2017–2024
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24167197.svg)](https://doi.org/10.5281/zenodo.24167197)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
 Analysis code, input data, outputs and verification scripts for the manuscript
 *"Applying a Bayesian priority-action score to India's drug-resistant tuberculosis
 surveillance, 2017–2024: no worsening axis, and the hazard of uncorrected reporting
@@ -99,7 +102,12 @@ evidence stream can support.
 
 ## Citation
 
-See `CITATION.cff`. Once this repository has a Zenodo DOI, cite the DOI.
+Cite the archive by DOI.
+
+- **This version (v1.0.0):** 10.5281/zenodo.24167198
+- **All versions (concept DOI, resolves to the latest):** 10.5281/zenodo.24167197
+
+Machine-readable metadata is in `CITATION.cff` and `.zenodo.json`.
 
 ## Licence
 
