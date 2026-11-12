@@ -1,0 +1,151 @@
+item,record_id,intervention_node,machine_code,title_only
+1,10.1371/journal.pone.0341968,10,favours intervention,no
+2,10.1371/journal.pntd.0012657,11,no effect or favours control,no
+3,10.5588/ijtld.18.0006,4,favours intervention,no
+4,10.12659/ajcr.939006,6,no effect or favours control,no
+5,10.1016/j.puhip.2026.100775,7,favours intervention,no
+6,10.1016/j.jctube.2021.100277,12,no effect or favours control,no
+7,10.1016/j.ijtb.2025.04.012,1,no effect or favours control,no
+8,10.1007/s15010-024-02463-y,3,favours intervention,no
+9,10.1186/s13620-023-00255-8,10,no effect or favours control,no
+10,10.1016/s2214-109x(17)30372-8,5,favours intervention,no
+11,10.2471/blt.21.286109,4,no effect or favours control,no
+12,PMID:9662903,4,no effect or favours control,no
+13,10.1155/2020/4587179,5,no effect or favours control,no
+14,10.5588/ijtld.14.0108,5,favours intervention,no
+15,10.1016/j.ijmm.2025.151665,3,favours intervention,no
+16,10.1002/vetr.3313,10,no effect or favours control,no
+17,10.1016/j.ijtb.2025.02.019,3,favours intervention,no
+18,10.1186/s13073-025-01458-0,3,favours intervention,no
+19,10.4103/jpgm.jpgm_16_25,2,no effect or favours control,no
+20,10.1186/s12879-026-13460-x,2,favours intervention,no
+21,10.1016/j.ijantimicag.2025.107666,3,favours intervention,no
+22,10.1371/journal.pmed.1004401,1,no effect or favours control,no
+23,10.5588/ijtldopen.24.0515,1,favours intervention,no
+24,10.1183/23120541.00427-2025,2,no effect or favours control,no
+25,10.1136/bmjopen-2020-047210,7,favours intervention,no
+26,10.3390/pathogens13110962,10,no effect or favours control,no
+27,10.1371/journal.pone.0284603,6,favours intervention,no
+28,10.1186/s12879-025-11491-4,1,favours intervention,no
+29,10.3389/fmed.2024.1416197,6,no effect or favours control,no
+30,10.1186/s12879-025-10470-z,3,no effect or favours control,no
+31,10.1016/j.ijtb.2025.05.006,2,favours intervention,no
+32,10.1093/cid/ciad583,5,no effect or favours control,no
+33,10.1128/jcm.01609-25,3,favours intervention,no
+34,10.3390/medicina61101805,7,favours intervention,no
+35,10.1016/j.talanta.2026.129674,2,favours intervention,no
+36,10.1016/j.ijmyco.2016.09.009,2,favours intervention,no
+37,10.1186/s12889-026-26979-0,4,favours intervention,no
+38,10.1007/s11250-024-04274-7,10,favours intervention,yes
+39,10.1097/ftd.0000000000001164,1,favours intervention,no
+40,10.1016/j.heliyon.2024.e34683,10,no effect or favours control,no
+41,10.1371/journal.pgph.0003347,5,favours intervention,no
+42,10.1128/spectrum.01493-25,2,no effect or favours control,no
+43,10.1016/j.ijtb.2023.05.001,9,favours intervention,no
+44,10.1186/s13756-024-01480-8,1,favours intervention,no
+45,10.2147/vmrr.s361226,11,no effect or favours control,no
+46,10.1186/s13063-023-07514-7,5,favours intervention,no
+47,10.1016/s2213-2600(25)00194-8,1,favours intervention,no
+48,10.1093/cid/ciag032,1,favours intervention,no
+49,10.1016/j.heliyon.2024.e25713,11,favours intervention,no
+50,10.1016/j.ijid.2019.11.023,5,no effect or favours control,no
+51,10.2147/idr.s407263,11,no effect or favours control,no
+52,10.1186/s13012-021-01155-7,5,no effect or favours control,no
+53,10.1155/2024/8875146,10,favours intervention,no
+54,10.3389/fvets.2025.1548627,10,favours intervention,no
+55,10.4329/wjr.v17.i2.105059,6,favours intervention,no
+56,10.3389/fcimb.2024.1453466,12,favours intervention,no
+57,10.3390/pathogens12040548,10,no effect or favours control,no
+58,10.1186/s12879-023-08396-5,8,no effect or favours control,no
+59,10.7759/cureus.88903,6,favours intervention,no
+60,10.11604/pamj.2025.52.21.48521,9,no effect or favours control,no
+61,10.11604/pamj.2025.52.21.48521,6,no effect or favours control,no
+62,10.1093/cid/ciaf404,5,favours intervention,no
+63,10.1016/j.cmi.2025.09.003,1,favours intervention,no
+64,10.7759/cureus.64951,6,no effect or favours control,no
+65,PMID:23672174,4,favours intervention,no
+66,10.1186/s13567-025-01602-z,10,no effect or favours control,no
+67,10.4103/aam.aam_576_25,11,no effect or favours control,no
+68,10.1128/jcm.01299-25,2,favours intervention,no
+69,10.1016/j.prevetmed.2025.106464,10,no effect or favours control,no
+70,10.1371/journal.pone.0305930,1,favours intervention,no
+71,10.3390/vetsci13030237,11,favours intervention,no
+72,10.1099/mgen.0.000573,4,favours intervention,no
+73,10.1002/14651858.cd008477.pub2,4,no effect or favours control,no
+74,10.1056/nejmoa0910370,7,favours intervention,no
+75,10.1016/j.prevetmed.2022.105816,10,no effect or favours control,no
+76,10.1093/ofid/ofac325,5,no effect or favours control,no
+77,10.3390/diseases14040132,2,favours intervention,no
+78,10.1186/s13063-025-08978-5,4,no effect or favours control,no
+79,10.1016/j.trsl.2015.07.010,4,no effect or favours control,no
+80,10.1186/s12917-024-04452-7,10,no effect or favours control,no
+81,10.1007/s00284-025-04063-x,11,no effect or favours control,no
+82,10.4081/monaldi.2026.3641,2,favours intervention,no
+83,10.1093/jacamr/dlaf175,3,no effect or favours control,no
+84,10.3390/foods11213411,11,no effect or favours control,no
+85,10.1016/j.ijtb.2024.04.009,2,favours intervention,no
+86,10.1093/heapol/czu137,8,favours intervention,no
+87,10.3389/fmicb.2025.1653031,2,favours intervention,no
+88,10.1177/20595131231175794,2,favours intervention,no
+89,10.7759/cureus.41462,6,favours intervention,no
+90,10.1007/s42770-025-01801-y,10,favours intervention,no
+91,10.1016/s0140-6736(16)00546-8,5,favours intervention,no
+92,10.1371/journal.pone.0192666,4,favours intervention,no
+93,10.5588/pha.18.0025,4,no effect or favours control,no
+94,10.4103/ijcm.ijcm_62_24,7,favours intervention,yes
+95,10.1016/j.rmcr.2026.102429,6,favours intervention,no
+96,10.2169/internalmedicine.5519-25,6,no effect or favours control,no
+97,10.7554/elife.96190,1,no effect or favours control,no
+98,10.1186/1471-2334-10-23,4,favours intervention,no
+99,10.1371/journal.pntd.0012870,10,favours intervention,no
+100,10.3390/ani14060848,10,no effect or favours control,no
+101,10.1186/s13063-025-09413-5,1,no effect or favours control,no
+102,10.26633/rpsp.2020.43,5,no effect or favours control,no
+103,10.1007/s43032-025-01987-4,2,favours intervention,no
+104,10.1093/cid/ciaf526,6,favours intervention,no
+105,10.3389/fsurg.2026.1708168,7,favours intervention,no
+106,10.1016/j.cca.2026.120876,2,no effect or favours control,no
+107,10.1186/s12879-025-11913-3,3,favours intervention,no
+108,10.1136/bmjresp-2025-003307,2,no effect or favours control,no
+109,10.1371/journal.pone.0214928,8,no effect or favours control,no
+110,10.3390/microorganisms11102538,3,favours intervention,no
+111,10.1016/j.fm.2025.104975,11,favours intervention,no
+112,10.1038/s41598-024-65063-8,1,no effect or favours control,no
+113,10.1093/cid/ciae268,5,no effect or favours control,no
+114,10.1186/s12891-025-09053-5,2,favours intervention,no
+115,10.1371/journal.pone.0218193,7,favours intervention,no
+116,10.5588/ijtld.15.0158,8,no effect or favours control,no
+117,PMID:19691201,5,no effect or favours control,no
+118,10.1002/psp4.70264,1,favours intervention,no
+119,10.5588/ijtldopen.25.0245,1,no effect or favours control,no
+120,10.3389/fmed.2024.1392430,6,no effect or favours control,no
+121,10.1177/15353141251372857,11,favours intervention,no
+122,10.1093/cid/ciae329,1,favours intervention,no
+123,10.1093/cid/ciaa1482,5,no effect or favours control,no
+124,10.1038/s41598-025-06080-z,1,favours intervention,no
+125,10.1111/tmi.13049,7,no effect or favours control,no
+126,10.3390/microorganisms14030603,2,favours intervention,no
+127,10.1128/jcm.01041-25,2,favours intervention,no
+128,10.1136/bmjph-2023-000654,6,favours intervention,no
+129,10.5588/pha.14.0092,9,no effect or favours control,no
+130,10.1007/s11259-025-10787-9,12,favours intervention,no
+131,10.2196/19552,4,favours intervention,no
+132,10.1590/0037-8682-0358-2025,2,favours intervention,no
+133,10.7189/jogh.16.04116,6,no effect or favours control,no
+134,10.3389/fmicb.2025.1515906,10,favours intervention,no
+135,10.1016/j.ijid.2026.108587,1,favours intervention,no
+136,10.3390/vetsci13030237,2,favours intervention,no
+137,10.2147/nds.s123545,7,favours intervention,no
+138,10.3390/ijms27062597,2,favours intervention,no
+139,10.1080/14787210.2023.2285917,1,favours intervention,no
+140,10.1186/s12981-020-00296-x,5,no effect or favours control,no
+141,10.1371/journal.pone.0293708,5,no effect or favours control,no
+142,10.1056/evidoa2400190,12,no effect or favours control,no
+143,10.1186/s12879-016-2109-7,5,favours intervention,no
+144,10.1093/cid/ciae601,12,favours intervention,no
+145,10.3760/cma.j.cn112147-20250826-00518,6,favours intervention,no
+146,10.1099/mgen.0.001429,1,favours intervention,yes
+147,10.1093/cid/ciaf112,1,favours intervention,no
+148,10.3389/fphar.2023.1154780,1,favours intervention,no
+149,10.4103/ijmr.ijmr_1901_18,5,no effect or favours control,no
+150,10.1186/s13063-025-08978-5,5,no effect or favours control,no

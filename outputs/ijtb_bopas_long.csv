@@ -1,0 +1,61 @@
+intervention,target,series,L,T,M,C,BOPAS,slope_used,half_width_used,floor_binding,trajectory_class
+"Molecular diagnostic scale-up (Xpert MTB/RIF, Xpert MTB/XDR)",RR/MDR-TB notifications per 100 000 population,RRMDR_notif_100k,0.606,0.185,1.00,0.65,0.09,+0.092,0.5,yes,flat/uncertain
+Airborne infection prevention and control,RR/MDR-TB notifications per 100 000 population,RRMDR_notif_100k,0.513,0.185,1.00,0.69,0.079,+0.092,0.5,yes,flat/uncertain
+TB preventive therapy,RR/MDR-TB notifications per 100 000 population,RRMDR_notif_100k,0.444,0.185,1.00,0.66,0.067,+0.092,0.5,yes,flat/uncertain
+Whole-genome sequencing for drug-susceptibility prediction,RR/MDR-TB notifications per 100 000 population,RRMDR_notif_100k,0.67,0.185,0.50,0.78,0.055,+0.092,0.5,yes,flat/uncertain
+Active case finding,RR/MDR-TB notifications per 100 000 population,RRMDR_notif_100k,0.367,0.185,1.00,0.62,0.053,+0.092,0.5,yes,flat/uncertain
+Shorter all-oral regimen rollout (BPaL/BPaL-M),RR/MDR-TB notifications per 100 000 population,RRMDR_notif_100k,0.628,0.185,0.50,0.71,0.049,+0.092,0.5,yes,flat/uncertain
+Bovine tuberculosis control,RR/MDR-TB notifications per 100 000 population,RRMDR_notif_100k,0.592,0.185,0.50,0.66,0.044,+0.092,0.5,yes,flat/uncertain
+Private-sector engagement,RR/MDR-TB notifications per 100 000 population,RRMDR_notif_100k,0.286,0.185,1.00,0.55,0.039,+0.092,0.5,yes,flat/uncertain
+Nutritional support,RR/MDR-TB notifications per 100 000 population,RRMDR_notif_100k,0.471,0.185,0.50,0.58,0.033,+0.092,0.5,yes,flat/uncertain
+Milk pasteurisation / dairy food chain,RR/MDR-TB notifications per 100 000 population,RRMDR_notif_100k,0.458,0.185,0.50,0.59,0.033,+0.092,0.5,yes,flat/uncertain
+Integrated TB-HIV-diabetes care,RR/MDR-TB notifications per 100 000 population,RRMDR_notif_100k,0.098,0.185,0.50,0.61,0.007,+0.092,0.5,yes,flat/uncertain
+Shorter all-oral regimen rollout (BPaL/BPaL-M),Rifampicin resistance among new pulmonary TB cases (%),RR_new_pct,0.628,0.0,0.00,0.71,0.0,-0.364,0.5,yes,improving
+Shorter all-oral regimen rollout (BPaL/BPaL-M),Fluoroquinolone-resistant RR-TB (pre-XDR) fraction (%),preXDR_fqr_pct,0.628,0.0,1.00,0.71,0.0,-0.767,5.16,no,flat/uncertain
+Shorter all-oral regimen rollout (BPaL/BPaL-M),MDR/RR-TB treatment success rate (%),MDR_TSR_pct,0.628,0.0,1.00,0.71,0.0,-4.234,1.24,no,improving
+Shorter all-oral regimen rollout (BPaL/BPaL-M),XDR-TB treatment success rate (%),XDR_TSR_pct,0.628,0.0,1.00,0.71,0.0,-6.377,1.216,no,improving
+"Molecular diagnostic scale-up (Xpert MTB/RIF, Xpert MTB/XDR)",Rifampicin resistance among new pulmonary TB cases (%),RR_new_pct,0.606,0.0,1.00,0.65,0.0,-0.364,0.5,yes,improving
+"Molecular diagnostic scale-up (Xpert MTB/RIF, Xpert MTB/XDR)",Fluoroquinolone-resistant RR-TB (pre-XDR) fraction (%),preXDR_fqr_pct,0.606,0.0,1.00,0.65,0.0,-0.767,5.16,no,flat/uncertain
+"Molecular diagnostic scale-up (Xpert MTB/RIF, Xpert MTB/XDR)",MDR/RR-TB treatment success rate (%),MDR_TSR_pct,0.606,0.0,1.00,0.65,0.0,-4.234,1.24,no,improving
+"Molecular diagnostic scale-up (Xpert MTB/RIF, Xpert MTB/XDR)",XDR-TB treatment success rate (%),XDR_TSR_pct,0.606,0.0,1.00,0.65,0.0,-6.377,1.216,no,improving
+Whole-genome sequencing for drug-susceptibility prediction,Rifampicin resistance among new pulmonary TB cases (%),RR_new_pct,0.67,0.0,0.50,0.78,0.0,-0.364,0.5,yes,improving
+Whole-genome sequencing for drug-susceptibility prediction,Fluoroquinolone-resistant RR-TB (pre-XDR) fraction (%),preXDR_fqr_pct,0.67,0.0,1.00,0.78,0.0,-0.767,5.16,no,flat/uncertain
+Whole-genome sequencing for drug-susceptibility prediction,MDR/RR-TB treatment success rate (%),MDR_TSR_pct,0.67,0.0,0.50,0.78,0.0,-4.234,1.24,no,improving
+Whole-genome sequencing for drug-susceptibility prediction,XDR-TB treatment success rate (%),XDR_TSR_pct,0.67,0.0,1.00,0.78,0.0,-6.377,1.216,no,improving
+Active case finding,Rifampicin resistance among new pulmonary TB cases (%),RR_new_pct,0.367,0.0,1.00,0.62,0.0,-0.364,0.5,yes,improving
+Active case finding,Fluoroquinolone-resistant RR-TB (pre-XDR) fraction (%),preXDR_fqr_pct,0.367,0.0,0.50,0.62,0.0,-0.767,5.16,no,flat/uncertain
+Active case finding,MDR/RR-TB treatment success rate (%),MDR_TSR_pct,0.367,0.0,0.50,0.62,0.0,-4.234,1.24,no,improving
+Active case finding,XDR-TB treatment success rate (%),XDR_TSR_pct,0.367,0.0,0.50,0.62,0.0,-6.377,1.216,no,improving
+TB preventive therapy,Rifampicin resistance among new pulmonary TB cases (%),RR_new_pct,0.444,0.0,1.00,0.66,0.0,-0.364,0.5,yes,improving
+TB preventive therapy,Fluoroquinolone-resistant RR-TB (pre-XDR) fraction (%),preXDR_fqr_pct,0.444,0.0,0.50,0.66,0.0,-0.767,5.16,no,flat/uncertain
+TB preventive therapy,MDR/RR-TB treatment success rate (%),MDR_TSR_pct,0.444,0.0,0.00,0.66,0.0,-4.234,1.24,no,improving
+TB preventive therapy,XDR-TB treatment success rate (%),XDR_TSR_pct,0.444,0.0,0.00,0.66,0.0,-6.377,1.216,no,improving
+Airborne infection prevention and control,Rifampicin resistance among new pulmonary TB cases (%),RR_new_pct,0.513,0.0,1.00,0.69,0.0,-0.364,0.5,yes,improving
+Airborne infection prevention and control,Fluoroquinolone-resistant RR-TB (pre-XDR) fraction (%),preXDR_fqr_pct,0.513,0.0,1.00,0.69,0.0,-0.767,5.16,no,flat/uncertain
+Airborne infection prevention and control,MDR/RR-TB treatment success rate (%),MDR_TSR_pct,0.513,0.0,0.50,0.69,0.0,-4.234,1.24,no,improving
+Airborne infection prevention and control,XDR-TB treatment success rate (%),XDR_TSR_pct,0.513,0.0,0.50,0.69,0.0,-6.377,1.216,no,improving
+Nutritional support,Rifampicin resistance among new pulmonary TB cases (%),RR_new_pct,0.471,0.0,0.00,0.58,0.0,-0.364,0.5,yes,improving
+Nutritional support,Fluoroquinolone-resistant RR-TB (pre-XDR) fraction (%),preXDR_fqr_pct,0.471,0.0,0.00,0.58,0.0,-0.767,5.16,no,flat/uncertain
+Nutritional support,MDR/RR-TB treatment success rate (%),MDR_TSR_pct,0.471,0.0,1.00,0.58,0.0,-4.234,1.24,no,improving
+Nutritional support,XDR-TB treatment success rate (%),XDR_TSR_pct,0.471,0.0,1.00,0.58,0.0,-6.377,1.216,no,improving
+Private-sector engagement,Rifampicin resistance among new pulmonary TB cases (%),RR_new_pct,0.286,0.0,0.50,0.55,0.0,-0.364,0.5,yes,improving
+Private-sector engagement,Fluoroquinolone-resistant RR-TB (pre-XDR) fraction (%),preXDR_fqr_pct,0.286,0.0,0.50,0.55,0.0,-0.767,5.16,no,flat/uncertain
+Private-sector engagement,MDR/RR-TB treatment success rate (%),MDR_TSR_pct,0.286,0.0,1.00,0.55,0.0,-4.234,1.24,no,improving
+Private-sector engagement,XDR-TB treatment success rate (%),XDR_TSR_pct,0.286,0.0,0.50,0.55,0.0,-6.377,1.216,no,improving
+Integrated TB-HIV-diabetes care,Rifampicin resistance among new pulmonary TB cases (%),RR_new_pct,0.098,0.0,0.00,0.61,0.0,-0.364,0.5,yes,improving
+Integrated TB-HIV-diabetes care,Fluoroquinolone-resistant RR-TB (pre-XDR) fraction (%),preXDR_fqr_pct,0.098,0.0,0.50,0.61,0.0,-0.767,5.16,no,flat/uncertain
+Integrated TB-HIV-diabetes care,MDR/RR-TB treatment success rate (%),MDR_TSR_pct,0.098,0.0,1.00,0.61,0.0,-4.234,1.24,no,improving
+Integrated TB-HIV-diabetes care,XDR-TB treatment success rate (%),XDR_TSR_pct,0.098,0.0,1.00,0.61,0.0,-6.377,1.216,no,improving
+Bovine tuberculosis control,Rifampicin resistance among new pulmonary TB cases (%),RR_new_pct,0.592,0.0,0.50,0.66,0.0,-0.364,0.5,yes,improving
+Bovine tuberculosis control,Fluoroquinolone-resistant RR-TB (pre-XDR) fraction (%),preXDR_fqr_pct,0.592,0.0,0.00,0.66,0.0,-0.767,5.16,no,flat/uncertain
+Bovine tuberculosis control,MDR/RR-TB treatment success rate (%),MDR_TSR_pct,0.592,0.0,0.00,0.66,0.0,-4.234,1.24,no,improving
+Bovine tuberculosis control,XDR-TB treatment success rate (%),XDR_TSR_pct,0.592,0.0,0.00,0.66,0.0,-6.377,1.216,no,improving
+Milk pasteurisation / dairy food chain,Rifampicin resistance among new pulmonary TB cases (%),RR_new_pct,0.458,0.0,0.50,0.59,0.0,-0.364,0.5,yes,improving
+Milk pasteurisation / dairy food chain,Fluoroquinolone-resistant RR-TB (pre-XDR) fraction (%),preXDR_fqr_pct,0.458,0.0,0.00,0.59,0.0,-0.767,5.16,no,flat/uncertain
+Milk pasteurisation / dairy food chain,MDR/RR-TB treatment success rate (%),MDR_TSR_pct,0.458,0.0,0.00,0.59,0.0,-4.234,1.24,no,improving
+Milk pasteurisation / dairy food chain,XDR-TB treatment success rate (%),XDR_TSR_pct,0.458,0.0,0.00,0.59,0.0,-6.377,1.216,no,improving
+Wildlife reservoir surveillance / occupational respiratory protection,Rifampicin resistance among new pulmonary TB cases (%),RR_new_pct,0.457,0.0,0.50,0.52,0.0,-0.364,0.5,yes,improving
+Wildlife reservoir surveillance / occupational respiratory protection,RR/MDR-TB notifications per 100 000 population,RRMDR_notif_100k,0.457,0.185,0.00,0.52,0.0,+0.092,0.5,yes,flat/uncertain
+Wildlife reservoir surveillance / occupational respiratory protection,Fluoroquinolone-resistant RR-TB (pre-XDR) fraction (%),preXDR_fqr_pct,0.457,0.0,0.00,0.52,0.0,-0.767,5.16,no,flat/uncertain
+Wildlife reservoir surveillance / occupational respiratory protection,MDR/RR-TB treatment success rate (%),MDR_TSR_pct,0.457,0.0,0.00,0.52,0.0,-4.234,1.24,no,improving
+Wildlife reservoir surveillance / occupational respiratory protection,XDR-TB treatment success rate (%),XDR_TSR_pct,0.457,0.0,0.00,0.52,0.0,-6.377,1.216,no,improving

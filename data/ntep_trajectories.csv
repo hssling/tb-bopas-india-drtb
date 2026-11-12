@@ -1,0 +1,43 @@
+series,label,year,value,numerator,denominator,who_fields,who_dataset,note
+RRMDR_notif_100k,RR/MDR-TB notifications per 100 000 population,2017,2.8690,39009,1359657407,conf_rrmdr ; e_pop_num,notifications+estimates,"variable changed at 2020: conf_rrmdr discontinued, replaced by the rr_nfqr/rr_fqr split"
+RRMDR_notif_100k,RR/MDR-TB notifications per 100 000 population,2018,4.2445,58347,1374659072,conf_rrmdr ; e_pop_num,notifications+estimates,"variable changed at 2020: conf_rrmdr discontinued, replaced by the rr_nfqr/rr_fqr split"
+RRMDR_notif_100k,RR/MDR-TB notifications per 100 000 population,2019,4.7699,66255,1389030316,conf_rrmdr ; e_pop_num,notifications+estimates,"variable changed at 2020: conf_rrmdr discontinued, replaced by the rr_nfqr/rr_fqr split"
+RRMDR_notif_100k,RR/MDR-TB notifications per 100 000 population,2020,3.5419,49679,1402617699,conf_rr_nfqr+conf_rr_fqr ; e_pop_num,notifications+estimates,"variable changed at 2020: conf_rrmdr discontinued, replaced by the rr_nfqr/rr_fqr split"
+RRMDR_notif_100k,RR/MDR-TB notifications per 100 000 population,2021,4.1604,58837,1414203891,conf_rr_nfqr+conf_rr_fqr ; e_pop_num,notifications+estimates,"variable changed at 2020: conf_rrmdr discontinued, replaced by the rr_nfqr/rr_fqr split"
+RRMDR_notif_100k,RR/MDR-TB notifications per 100 000 population,2022,4.5187,64411,1425423217,conf_rr_nfqr+conf_rr_fqr ; e_pop_num,notifications+estimates,"variable changed at 2020: conf_rrmdr discontinued, replaced by the rr_nfqr/rr_fqr split"
+RRMDR_notif_100k,RR/MDR-TB notifications per 100 000 population,2023,4.4918,64595,1438069593,conf_rr_nfqr+conf_rr_fqr ; e_pop_num,notifications+estimates,"variable changed at 2020: conf_rrmdr discontinued, replaced by the rr_nfqr/rr_fqr split"
+RRMDR_notif_100k,RR/MDR-TB notifications per 100 000 population,2024,3.8215,55447,1450935788,conf_rr_nfqr+conf_rr_fqr ; e_pop_num,notifications+estimates,"variable changed at 2020: conf_rrmdr discontinued, replaced by the rr_nfqr/rr_fqr split"
+RR_new_pct,Rifampicin resistance among new pulmonary TB cases (%),2017,2.9451,7976,270825,rr_new / r_rlt_new,dr_surveillance,denominator = new pulmonary cases with a rifampicin result
+RR_new_pct,Rifampicin resistance among new pulmonary TB cases (%),2018,2.4670,8987,364292,rr_new / r_rlt_new,dr_surveillance,denominator = new pulmonary cases with a rifampicin result
+RR_new_pct,Rifampicin resistance among new pulmonary TB cases (%),2019,2.7101,18945,699062,rr_new / r_rlt_new,dr_surveillance,denominator = new pulmonary cases with a rifampicin result
+RR_new_pct,Rifampicin resistance among new pulmonary TB cases (%),2020,2.5927,14453,557456,rr_new / r_rlt_new,dr_surveillance,denominator = new pulmonary cases with a rifampicin result
+RR_new_pct,Rifampicin resistance among new pulmonary TB cases (%),2021,4.7320,31847,673008,rr_new / r_rlt_new,dr_surveillance,denominator = new pulmonary cases with a rifampicin result
+RR_new_pct,Rifampicin resistance among new pulmonary TB cases (%),2022,4.5076,34128,757128,rr_new / r_rlt_new,dr_surveillance,denominator = new pulmonary cases with a rifampicin result
+RR_new_pct,Rifampicin resistance among new pulmonary TB cases (%),2023,4.1850,34761,830611,rr_new / r_rlt_new,dr_surveillance,denominator = new pulmonary cases with a rifampicin result
+RR_new_pct,Rifampicin resistance among new pulmonary TB cases (%),2024,3.6262,36530,1007379,rr_new / r_rlt_new,dr_surveillance,denominator = new pulmonary cases with a rifampicin result
+preXDR_fqr_pct,Fluoroquinolone-resistant RR-TB (pre-XDR) among RR-TB tested (%),2019,37.4605,13766,36748,rr_fqr / rr_dst_rlt_fq,dr_surveillance,series begins 2019; no comparable pre-2019 reporting
+preXDR_fqr_pct,Fluoroquinolone-resistant RR-TB (pre-XDR) among RR-TB tested (%),2020,49.4558,8088,16354,rr_fqr / rr_dst_rlt_fq,dr_surveillance,series begins 2019; no comparable pre-2019 reporting
+preXDR_fqr_pct,Fluoroquinolone-resistant RR-TB (pre-XDR) among RR-TB tested (%),2021,52.1821,10307,19752,rr_fqr / rr_dst_rlt_fq,dr_surveillance,series begins 2019; no comparable pre-2019 reporting
+preXDR_fqr_pct,Fluoroquinolone-resistant RR-TB (pre-XDR) among RR-TB tested (%),2022,49.7184,11739,23611,rr_fqr / rr_dst_rlt_fq,dr_surveillance,series begins 2019; no comparable pre-2019 reporting
+preXDR_fqr_pct,Fluoroquinolone-resistant RR-TB (pre-XDR) among RR-TB tested (%),2023,44.7760,11134,24866,rr_fqr / rr_dst_rlt_fq,dr_surveillance,series begins 2019; no comparable pre-2019 reporting
+preXDR_fqr_pct,Fluoroquinolone-resistant RR-TB (pre-XDR) among RR-TB tested (%),2024,35.3911,7768,21949,rr_fqr / rr_dst_rlt_fq,dr_surveillance,series begins 2019; no comparable pre-2019 reporting
+MDR_TSR_pct,MDR/RR-TB treatment success rate (%),2014,45.7024,10294,22524,mdr_succ / mdr_coh,outcomes,indexed by treatment-cohort year; 2022 is the latest closed cohort
+MDR_TSR_pct,MDR/RR-TB treatment success rate (%),2015,46.3732,12505,26966,mdr_succ / mdr_coh,outcomes,indexed by treatment-cohort year; 2022 is the latest closed cohort
+MDR_TSR_pct,MDR/RR-TB treatment success rate (%),2016,47.8115,15872,33197,mdr_succ / mdr_coh,outcomes,indexed by treatment-cohort year; 2022 is the latest closed cohort
+MDR_TSR_pct,MDR/RR-TB treatment success rate (%),2017,49.0026,17662,36043,mdr_succ / mdr_coh,outcomes,indexed by treatment-cohort year; 2022 is the latest closed cohort
+MDR_TSR_pct,MDR/RR-TB treatment success rate (%),2018,56.0422,26499,47284,mdr_succ / mdr_coh,outcomes,indexed by treatment-cohort year; 2022 is the latest closed cohort
+MDR_TSR_pct,MDR/RR-TB treatment success rate (%),2019,57.3318,34891,60858,mdr_succ / mdr_coh,outcomes,indexed by treatment-cohort year; 2022 is the latest closed cohort
+MDR_TSR_pct,MDR/RR-TB treatment success rate (%),2020,68.5471,27534,40168,mdr_succ / mdr_coh,outcomes,indexed by treatment-cohort year; 2022 is the latest closed cohort
+MDR_TSR_pct,MDR/RR-TB treatment success rate (%),2021,72.9766,22992,31506,mdr_succ / mdr_coh,outcomes,indexed by treatment-cohort year; 2022 is the latest closed cohort
+MDR_TSR_pct,MDR/RR-TB treatment success rate (%),2022,76.8071,26076,33950,mdr_succ / mdr_coh,outcomes,indexed by treatment-cohort year; 2022 is the latest closed cohort
+XDR_TSR_pct,XDR-TB treatment success rate (%),2014,29.3978,371,1262,xdr_succ / xdr_coh,outcomes,indexed by treatment-cohort year
+XDR_TSR_pct,XDR-TB treatment success rate (%),2015,28.1221,599,2130,xdr_succ / xdr_coh,outcomes,indexed by treatment-cohort year
+XDR_TSR_pct,XDR-TB treatment success rate (%),2016,30.3571,748,2464,xdr_succ / xdr_coh,outcomes,indexed by treatment-cohort year
+XDR_TSR_pct,XDR-TB treatment success rate (%),2017,36.1952,957,2644,xdr_succ / xdr_coh,outcomes,indexed by treatment-cohort year
+XDR_TSR_pct,XDR-TB treatment success rate (%),2018,47.8392,1273,2661,xdr_succ / xdr_coh,outcomes,indexed by treatment-cohort year
+XDR_TSR_pct,XDR-TB treatment success rate (%),2019,55.1108,1666,3023,xdr_succ / xdr_coh,outcomes,indexed by treatment-cohort year
+XDR_TSR_pct,XDR-TB treatment success rate (%),2020,63.9777,5726,8950,xdr_succ / xdr_coh,outcomes,indexed by treatment-cohort year
+XDR_TSR_pct,XDR-TB treatment success rate (%),2021,69.4267,4880,7029,xdr_succ / xdr_coh,outcomes,indexed by treatment-cohort year
+XDR_TSR_pct,XDR-TB treatment success rate (%),2022,72.5343,6663,9186,xdr_succ / xdr_coh,outcomes,indexed by treatment-cohort year
+BDQ_res_pct,Bedaquiline resistance among RR-TB tested (%),2023,4.6584,30,644,rr_bdqr / rr_dst_rlt_bdq,dr_surveillance,"only two reporting years; descriptive only, not fitted"
+BDQ_res_pct,Bedaquiline resistance among RR-TB tested (%),2024,4.7506,20,421,rr_bdqr / rr_dst_rlt_bdq,dr_surveillance,"only two reporting years; descriptive only, not fitted"

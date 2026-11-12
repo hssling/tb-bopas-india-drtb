@@ -1,0 +1,26 @@
+harvested records in corpus            : 3589
+records matching >=1 intervention node : 1831 (51.0%)
+records matching no node (unused)      : 1758 (49.0%)
+records matching >1 node               : 280
+records with no abstract text          : 1586 (44.2%)
+coded records relying on title only    : 220
+
+title-only coded records per node:
+  node  1  Shorter all-oral regimen rollout (BPaL/BPaL-M)             40
+  node  2  Molecular diagnostic scale-up (Xpert MTB/RIF, Xpert MTB/   42
+  node  3  Whole-genome sequencing for drug-susceptibility predicti   6
+  node  4  Active case finding                                        17
+  node  5  TB preventive therapy                                      28
+  node  6  Airborne infection prevention and control                  24
+  node  7  Nutritional support                                        12
+  node  8  Private-sector engagement                                  4
+  node  9  Integrated TB-HIV-diabetes care                            1
+  node 10  Bovine tuberculosis control                                36
+  node 11  Milk pasteurisation / dairy food chain                     8
+  node 12  Wildlife reservoir surveillance / occupational respirato   3
+
+bias in the original (uncorrected) direction-of-effect classifier:
+  records scored favours-intervention                    : 1059
+  ... containing contrary cues too (resolved as favours) : 298 (28.1%)
+  ... whose only favour cue is a prevent-family word     : 144 (13.6%)
+  favour-cue frequency: [('effective', 290), ('prevention', 286), ('improve', 219), ('lower', 183), ('improved', 169), ('reduce', 161), ('reduced', 110), ('prevent', 99), ('successful', 73), ('decreased', 64), ('protective', 53), ('decrease', 31), ('favorable', 29), ('improves', 29), ('reduces', 25), ('favourable', 18), ('lowered', 7), ('prevented', 5)]

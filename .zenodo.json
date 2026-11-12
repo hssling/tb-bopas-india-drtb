@@ -1,0 +1,40 @@
+{
+  "title": "Analysis code and data: applying a Bayesian priority-action score to India's drug-resistant tuberculosis surveillance, 2017-2024",
+  "upload_type": "dataset",
+  "description": "<p>Complete analysis code, input data and outputs for a study applying a\nBayesian priority-action score to India's drug-resistant tuberculosis (DR-TB) surveillance\nover 2017-2024.</p>\n\n<p><strong>Surveillance data.</strong> Five national DR-TB axes reconstructed from the World\nHealth Organization Global TB Programme country data for India (notifications, treatment\noutcomes, drug-resistance surveillance and burden-estimate datasets, retrieved 8 September\n2026). <code>data/ntep_trajectories.csv</code> carries, for every datapoint, its numerator,\nits denominator, the WHO field names it was derived from and its source dataset, so each\nvalue is traceable to a published field rather than to a summary table.</p>\n\n<p><strong>Literature data.</strong> <code>data/tb_interventions_unified.csv</code> is a\n3,589-record open-access harvest (twelve Boolean queries, one per pre-specified intervention\nnode, against PubMed E-utilities and Europe PMC, 20 May 2026).</p>\n\n<p><strong>Code.</strong> <code>code/build_tb_bopas_ijtb.py</code> fits the trajectories with\nbootstrap and t-based intervals, segments them at documented reporting breaks, codes the\ncorpus with a corrected direction-of-effect classifier, computes the score, and emits six\nsensitivity scenarios. It is pure-Python 3.11 with no third-party numerical dependency; the\nincomplete beta function is evaluated by continued fraction and inverted by bisection, and\n<code>verification/test_beta_bound.py</code> checks that implementation and every published\ncredible bound against SciPy.</p>\n\n<p><strong>Verification.</strong> The scripts under <code>verification/</code> re-check word\ncounts, keyword rules, citation sequence, blinding and every reported number against the\npipeline outputs. Those under <code>validation/</code> build and analyse a stratified\n150-record worksheet for validating the automated classifier against independent human\ncoding.</p>\n\n<p><strong>Principal finding.</strong> No axis of India's DR-TB surveillance is significantly\nworsening over the period; treatment success improved by +4.23 (MDR/RR-TB) and +6.38 (XDR-TB)\npercentage points per year. The score returns no urgent priority. Fitting across an\nuncorrected 2021 reporting discontinuity is sufficient on its own to manufacture a confident\ntop-ranked priority on an axis that is in fact improving.</p>\n",
+  "creators": [
+    {
+      "name": "Siddalingaiah, H S",
+      "affiliation": "Department of Community Medicine, Shridevi Institute of Medical Sciences and Research Hospital, Tumkur, Karnataka, India",
+      "orcid": "0000-0002-4771-8285"
+    },
+    {
+      "name": "Chandrakala, D",
+      "affiliation": "Department of Anesthesia, Koratagere Taluka Hospital, Department of Health and Family Welfare, Tumkur, Karnataka, India"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": [
+    "tuberculosis",
+    "drug-resistant tuberculosis",
+    "India",
+    "National Tuberculosis Elimination Programme",
+    "priority setting",
+    "Bayesian analysis",
+    "surveillance",
+    "reporting discontinuity",
+    "reproducibility",
+    "One Health"
+  ],
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "10.4103/ohbl.ohbl_11_26",
+      "relation": "isSupplementTo",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    }
+  ],
+  "notes": "Surveillance inputs are derived from the WHO Global TB Programme country data for India and were cross-checked against the India TB Report 2024. Paste the DOI minted for this deposit into the manuscript's data-availability statement and title page before submission."
+}

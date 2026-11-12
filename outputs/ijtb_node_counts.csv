@@ -1,0 +1,13 @@
+node_id,label,n_total,k_corrected,n_dir_corrected,L_corrected,k_uncorrected,n_dir_uncorrected,L_uncorrected
+1,Shorter all-oral regimen rollout (BPaL/BPaL-M),289,129,188,0.628,185,202,0.877
+2,"Molecular diagnostic scale-up (Xpert MTB/RIF, Xpert MTB/XDR)",342,137,207,0.606,188,215,0.832
+3,Whole-genome sequencing for drug-susceptibility prediction,168,67,89,0.670,101,105,0.916
+4,Active case finding,188,49,111,0.367,109,128,0.791
+5,TB preventive therapy,264,87,172,0.444,179,197,0.868
+6,Airborne infection prevention and control,217,75,128,0.513,130,147,0.833
+7,Nutritional support,112,43,76,0.471,69,78,0.810
+8,Private-sector engagement,48,14,34,0.286,31,37,0.712
+9,Integrated TB-HIV-diabetes care,5,1,3,0.098,2,3,0.249
+10,Bovine tuberculosis control,272,95,144,0.592,146,159,0.874
+11,Milk pasteurisation / dairy food chain,162,45,82,0.458,84,100,0.769
+12,Wildlife reservoir surveillance / occupational respiratory protection,64,24,41,0.457,41,46,0.789

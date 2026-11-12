@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "TB-BOPAS: a Bayesian priority-action score applied to India's drug-resistant tuberculosis surveillance, 2017-2024"
+abstract: >-
+  Analysis code, input data and outputs for a study applying a Bayesian
+  priority-action score to India's drug-resistant tuberculosis surveillance.
+  Five national axes were reconstructed from WHO Global TB Programme country
+  data with per-datapoint provenance. No axis is significantly worsening;
+  treatment success improved by +4.23 (MDR/RR-TB) and +6.38 (XDR-TB) percentage
+  points per year. Fitting across an uncorrected 2021 reporting discontinuity is
+  by itself sufficient to manufacture a confident top-ranked priority on an axis
+  that is in fact improving.
+type: dataset
+authors:
+  - family-names: "Siddalingaiah"
+    given-names: "H S"
+    orcid: "https://orcid.org/0000-0002-4771-8285"
+    affiliation: "Department of Community Medicine, Shridevi Institute of Medical Sciences and Research Hospital, Tumkur, Karnataka, India"
+  - family-names: "Chandrakala"
+    given-names: "D"
+    affiliation: "Department of Anesthesia, Koratagere Taluka Hospital, Department of Health and Family Welfare, Tumkur, Karnataka, India"
+license: CC-BY-4.0
+keywords:
+  - tuberculosis
+  - drug-resistant tuberculosis
+  - India
+  - National Tuberculosis Elimination Programme
+  - priority setting
+  - Bayesian analysis
+  - surveillance
+  - reporting discontinuity
+  - reproducibility
+  - One Health
