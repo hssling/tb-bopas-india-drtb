@@ -110,7 +110,9 @@ evidence stream can support.
 
 Cite the archive by DOI.
 
-- **This version (v1.0.0):** 10.5281/zenodo.24167198
+- **Version 1.1.0:** 10.5281/zenodo.24564979
+- **Version 1.0.1:** 10.5281/zenodo.24169718
+- **Version 1.0.0:** 10.5281/zenodo.24167198
 - **All versions (concept DOI, resolves to the latest):** 10.5281/zenodo.24167197
 
 Machine-readable metadata is in `CITATION.cff` and `.zenodo.json`.
