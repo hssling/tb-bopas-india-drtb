@@ -8,6 +8,7 @@ Inputs (all in this repository):
   outputs/ijtb_slopes.csv, code/build_tb_bopas_ijtb.py  (bootstrap half-widths and the causal-link matrix)
   validation/validation_codes_final.csv           classifier, coder, pre-check consensus, AI recode, final codes
   data/who_zoonotic_tb_2026-11-26.csv             WHO zoonotic TB dataset
+  data/who_dr_surveillance_2026-11-26.csv         WHO drug-resistance surveillance dataset (retrieved 26 Nov 2026)
 Output: outputs/revision_analyses.json.   Run: python -I code/revision_analyses.py
 Requires numpy and scipy (the original pipeline is standard-library only).
 """
@@ -227,6 +228,27 @@ def main():
         "2018_pulm_spec_available": dict(Counter(r["pulm_spec_available"] or "blank" for r in z18)),
         "2018_ep_spec_available": dict(Counter(r["ep_spec_available"] or "blank" for r in z18)),
         "2023_ident_zoonotic": dict(Counter(r["ident_zoonotic"] or "blank" for r in z23)),
+    }
+
+    # 8. new versus previously treated: does a shift between the two groups explain the 2021 step?
+    D = {int(r["year"]): r for r in csv.DictReader(
+        (ROOT / "data" / "who_dr_surveillance_2026-11-26.csv").open(encoding="utf-8")) if r["iso3"] == "IND"}
+    drs = {}
+    for y in range(2017, 2025):
+        r = D[y]
+        t = {g: num(r[f"r_rlt_{g}"]) or 0.0 for g in ("new", "ret", "unk")}
+        k = {g: num(r[f"rr_{g}"]) or 0.0 for g in ("new", "ret", "unk")}
+        drs[y] = {"tested_new": t["new"], "rr_new": k["new"], "pct_new": 100 * k["new"] / t["new"],
+                  "tested_ret": t["ret"], "rr_ret": k["ret"], "pct_ret": 100 * k["ret"] / t["ret"],
+                  "tested_all": sum(t.values()), "rr_all": sum(k.values()),
+                  "pct_all": 100 * sum(k.values()) / sum(t.values()),
+                  "ret_share_of_tested": 100 * t["ret"] / sum(t.values()),
+                  "matches_trajectory_new": abs(100 * k["new"] / t["new"] - S["RR_new_pct"][y]["value"]) < 1e-3}
+    res["new_vs_previously_treated"] = drs
+    ys = sorted(drs)
+    res["segmented_2021"] = {
+        "previously_treated_pct": segmented(ys, [drs[y]["pct_ret"] for y in ys], 2021),
+        "all_tested_pct": segmented(ys, [drs[y]["pct_all"] for y in ys], 2021),
     }
 
     OUT.write_text(json.dumps(res, indent=1, default=float), encoding="utf-8")

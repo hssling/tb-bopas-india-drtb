@@ -867,5 +867,163 @@
    "blank": 11,
    "1": 34
   }
+ },
+ "new_vs_previously_treated": {
+  "2017": {
+   "tested_new": 270825.0,
+   "rr_new": 7976.0,
+   "pct_new": 2.945075233084095,
+   "tested_ret": 156428.0,
+   "rr_ret": 23232.0,
+   "pct_ret": 14.851561101593065,
+   "tested_all": 427253.0,
+   "rr_all": 31208.0,
+   "pct_all": 7.304337242804615,
+   "ret_share_of_tested": 36.61249891750321,
+   "matches_trajectory_new": true
+  },
+  "2018": {
+   "tested_new": 364292.0,
+   "rr_new": 8987.0,
+   "pct_new": 2.4669770403961655,
+   "tested_ret": 148075.0,
+   "rr_ret": 27248.0,
+   "pct_ret": 18.401485733580955,
+   "tested_all": 512367.0,
+   "rr_all": 36235.0,
+   "pct_all": 7.072079193234537,
+   "ret_share_of_tested": 28.900182876727033,
+   "matches_trajectory_new": true
+  },
+  "2019": {
+   "tested_new": 699062.0,
+   "rr_new": 18945.0,
+   "pct_new": 2.710060051898115,
+   "tested_ret": 131162.0,
+   "rr_ret": 18100.0,
+   "pct_ret": 13.799728579924063,
+   "tested_all": 830224.0,
+   "rr_all": 37045.0,
+   "pct_all": 4.462048796469387,
+   "ret_share_of_tested": 15.798386941355586,
+   "matches_trajectory_new": true
+  },
+  "2020": {
+   "tested_new": 557456.0,
+   "rr_new": 14453.0,
+   "pct_new": 2.592670991073735,
+   "tested_ret": 152177.0,
+   "rr_ret": 20138.0,
+   "pct_ret": 13.233274410719098,
+   "tested_all": 709633.0,
+   "rr_all": 34591.0,
+   "pct_all": 4.874491462488357,
+   "ret_share_of_tested": 21.444464955829282,
+   "matches_trajectory_new": true
+  },
+  "2021": {
+   "tested_new": 673008.0,
+   "rr_new": 31847.0,
+   "pct_new": 4.732038846492166,
+   "tested_ret": 128236.0,
+   "rr_ret": 22352.0,
+   "pct_ret": 17.43036276864531,
+   "tested_all": 801244.0,
+   "rr_all": 54199.0,
+   "pct_all": 6.7643564257579465,
+   "ret_share_of_tested": 16.004612827053933,
+   "matches_trajectory_new": true
+  },
+  "2022": {
+   "tested_new": 757128.0,
+   "rr_new": 34128.0,
+   "pct_new": 4.5075601483500805,
+   "tested_ret": 131456.0,
+   "rr_ret": 25207.0,
+   "pct_ret": 19.175237341772153,
+   "tested_all": 888584.0,
+   "rr_all": 59335.0,
+   "pct_all": 6.677477874911094,
+   "ret_share_of_tested": 14.793874298884518,
+   "matches_trajectory_new": true
+  },
+  "2023": {
+   "tested_new": 830611.0,
+   "rr_new": 34761.0,
+   "pct_new": 4.184991530331287,
+   "tested_ret": 137679.0,
+   "rr_ret": 24061.0,
+   "pct_ret": 17.476158310272446,
+   "tested_all": 968290.0,
+   "rr_all": 58822.0,
+   "pct_all": 6.074832952937653,
+   "ret_share_of_tested": 14.218777432380795,
+   "matches_trajectory_new": true
+  },
+  "2024": {
+   "tested_new": 1007379.0,
+   "rr_new": 36530.0,
+   "pct_new": 3.626241960572932,
+   "tested_ret": 111153.0,
+   "rr_ret": 14011.0,
+   "pct_ret": 12.60514785925706,
+   "tested_all": 1118532.0,
+   "rr_all": 50541.0,
+   "pct_all": 4.518511763633048,
+   "ret_share_of_tested": 9.937400092263788,
+   "matches_trajectory_new": true
+  }
+ },
+ "segmented_2021": {
+  "previously_treated_pct": {
+   "break": 2021,
+   "n": 8,
+   "df": 4,
+   "pre_slope": {
+    "est": -0.9456617226278761,
+    "lo": -3.8976155120713902,
+    "hi": 2.006292066815638
+   },
+   "level_change_at_break": {
+    "est": 6.39057698405181,
+    "lo": -3.399946134000114,
+    "hi": 16.181100102103734
+   },
+   "post_slope": {
+    "est": -1.617472375966447,
+    "lo": -4.569426165409961,
+    "hi": 1.334481413477067
+   },
+   "slope_change": {
+    "est": -0.671810653338571,
+    "lo": -4.846503737868241,
+    "hi": 3.502882431191099
+   }
+  },
+  "all_tested_pct": {
+   "break": 2021,
+   "n": 8,
+   "df": 4,
+   "pre_slope": {
+    "est": -0.9899567737713917,
+    "lo": -1.892076288217418,
+    "hi": -0.08783725932536535
+   },
+   "level_change_at_break": {
+    "est": 3.6564743512414126,
+    "lo": 0.6644824057663454,
+    "hi": 6.64846629671648
+   },
+   "post_slope": {
+    "est": -0.7340178908348136,
+    "lo": -1.63613740528084,
+    "hi": 0.16810162361121272
+   },
+   "slope_change": {
+    "est": 0.25593888293657807,
+    "lo": -1.0198507692744239,
+    "hi": 1.53172853514758
+   }
+  }
  }
 }
