@@ -133,6 +133,7 @@ evidence stream can support.
 
 Cite the archive by DOI.
 
+- **Version 1.2.3:** 10.5281/zenodo.24566970
 - **Version 1.2.2:** 10.5281/zenodo.24566563
 - **Version 1.2.1:** 10.5281/zenodo.24566120
 - **Version 1.2.0:** 10.5281/zenodo.24566030
