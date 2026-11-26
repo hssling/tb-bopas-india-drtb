@@ -1,0 +1,214 @@
+{
+ "primary": {
+  "T": {
+   "RR_new_pct": {
+    "slope": -0.364,
+    "half_width": 0.1672,
+    "half_used": 0.5,
+    "floor_binding": true,
+    "T": 0.0
+   },
+   "RRMDR_notif_100k": {
+    "slope": 0.0925,
+    "half_width": 0.2045,
+    "half_used": 0.5,
+    "floor_binding": true,
+    "T": 0.185
+   },
+   "preXDR_fqr_pct": {
+    "slope": -0.7671,
+    "half_width": 5.1599,
+    "half_used": 5.1599,
+    "floor_binding": false,
+    "T": 0.0
+   },
+   "MDR_TSR_pct": {
+    "slope": 4.2338,
+    "half_width": 1.2399,
+    "half_used": 1.2399,
+    "floor_binding": false,
+    "T": 0.0
+   },
+   "XDR_TSR_pct": {
+    "slope": 6.3769,
+    "half_width": 1.2164,
+    "half_used": 1.2164,
+    "floor_binding": false,
+    "T": 0.0
+   }
+  },
+  "cells": 11,
+  "top_series": "RRMDR_notif_100k",
+  "top_T": 0.185
+ },
+ "no_floor": {
+  "T": {
+   "RR_new_pct": {
+    "slope": -0.364,
+    "half_width": 0.1672,
+    "half_used": 0.1672,
+    "floor_binding": false,
+    "T": 0.0
+   },
+   "RRMDR_notif_100k": {
+    "slope": 0.0925,
+    "half_width": 0.2045,
+    "half_used": 0.2045,
+    "floor_binding": false,
+    "T": 0.452
+   },
+   "preXDR_fqr_pct": {
+    "slope": -0.7671,
+    "half_width": 5.1599,
+    "half_used": 5.1599,
+    "floor_binding": false,
+    "T": 0.0
+   },
+   "MDR_TSR_pct": {
+    "slope": 4.2338,
+    "half_width": 1.2399,
+    "half_used": 1.2399,
+    "floor_binding": false,
+    "T": 0.0
+   },
+   "XDR_TSR_pct": {
+    "slope": 6.3769,
+    "half_width": 1.2164,
+    "half_used": 1.2164,
+    "floor_binding": false,
+    "T": 0.0
+   }
+  },
+  "cells": 11,
+  "top_series": "RRMDR_notif_100k",
+  "top_T": 0.452
+ },
+ "one_line": {
+  "T": {
+   "RR_new_pct": {
+    "slope": 0.2487,
+    "half_width": 0.2215,
+    "half_used": 0.5,
+    "floor_binding": true,
+    "T": 0.497
+   },
+   "RRMDR_notif_100k": {
+    "slope": 0.0925,
+    "half_width": 0.2045,
+    "half_used": 0.5,
+    "floor_binding": true,
+    "T": 0.185
+   },
+   "preXDR_fqr_pct": {
+    "slope": -0.7671,
+    "half_width": 5.1599,
+    "half_used": 5.1599,
+    "floor_binding": false,
+    "T": 0.0
+   },
+   "MDR_TSR_pct": {
+    "slope": 4.2338,
+    "half_width": 1.2399,
+    "half_used": 1.2399,
+    "floor_binding": false,
+    "T": 0.0
+   },
+   "XDR_TSR_pct": {
+    "slope": 6.3769,
+    "half_width": 1.2164,
+    "half_used": 1.2164,
+    "floor_binding": false,
+    "T": 0.0
+   }
+  },
+  "cells": 20,
+  "top_series": "RR_new_pct",
+  "top_T": 0.497
+ },
+ "one_line_no_floor": {
+  "T": {
+   "RR_new_pct": {
+    "slope": 0.2487,
+    "half_width": 0.2215,
+    "half_used": 0.2215,
+    "floor_binding": false,
+    "T": 1.123
+   },
+   "RRMDR_notif_100k": {
+    "slope": 0.0925,
+    "half_width": 0.2045,
+    "half_used": 0.2045,
+    "floor_binding": false,
+    "T": 0.452
+   },
+   "preXDR_fqr_pct": {
+    "slope": -0.7671,
+    "half_width": 5.1599,
+    "half_used": 5.1599,
+    "floor_binding": false,
+    "T": 0.0
+   },
+   "MDR_TSR_pct": {
+    "slope": 4.2338,
+    "half_width": 1.2399,
+    "half_used": 1.2399,
+    "floor_binding": false,
+    "T": 0.0
+   },
+   "XDR_TSR_pct": {
+    "slope": 6.3769,
+    "half_width": 1.2164,
+    "half_used": 1.2164,
+    "floor_binding": false,
+    "T": 0.0
+   }
+  },
+  "cells": 20,
+  "top_series": "RR_new_pct",
+  "top_T": 1.123
+ },
+ "partial_links_zero": {
+  "T": {
+   "RR_new_pct": {
+    "slope": -0.364,
+    "half_width": 0.1672,
+    "half_used": 0.5,
+    "floor_binding": true,
+    "T": 0.0
+   },
+   "RRMDR_notif_100k": {
+    "slope": 0.0925,
+    "half_width": 0.2045,
+    "half_used": 0.5,
+    "floor_binding": true,
+    "T": 0.185
+   },
+   "preXDR_fqr_pct": {
+    "slope": -0.7671,
+    "half_width": 5.1599,
+    "half_used": 5.1599,
+    "floor_binding": false,
+    "T": 0.0
+   },
+   "MDR_TSR_pct": {
+    "slope": 4.2338,
+    "half_width": 1.2399,
+    "half_used": 1.2399,
+    "floor_binding": false,
+    "T": 0.0
+   },
+   "XDR_TSR_pct": {
+    "slope": 6.3769,
+    "half_width": 1.2164,
+    "half_used": 1.2164,
+    "floor_binding": false,
+    "T": 0.0
+   }
+  },
+  "cells": 5,
+  "top_series": "RRMDR_notif_100k",
+  "top_T": 0.185
+ },
+ "ratio_one_line_vs_primary": 2.69,
+ "ratio_no_floor": 2.48
+}

@@ -1,0 +1,41 @@
+{
+ "pairs": 150,
+ "title_only": 3,
+ "independent_agreement": "141/150",
+ "independent_kappa": 0.9,
+ "consensus_counts": {
+  "not an evaluation of this intervention": 95,
+  "favours intervention": 34,
+  "no effect or favours control": 8,
+  "unclear": 13
+ },
+ "not_an_evaluation": "95/150",
+ "classifier_exact_agreement": "22/150",
+ "classifier_kappa": -0.01,
+ "classifier_on_evaluations": {
+  "n": 55,
+  "correct": 29,
+  "TP": 17,
+  "FP": 9,
+  "FN": 17,
+  "TN": 12,
+  "PPV": 0.65,
+  "sensitivity": 0.5,
+  "specificity": 0.57
+ },
+ "classifier_favours_calls_correct": "17/87",
+ "not_an_evaluation_by_node": {
+  "1": "19/22",
+  "2": "13/22",
+  "3": "3/10",
+  "4": "7/13",
+  "5": "4/20",
+  "6": "14/15",
+  "7": "5/9",
+  "8": "1/4",
+  "9": "2/3",
+  "10": "12/17",
+  "11": "10/10",
+  "12": "5/5"
+ }
+}

@@ -100,6 +100,12 @@ evidence stream can support.
   (63,929 against 64,595).
 - PubMed E-utilities and Europe PMC (`OPEN_ACCESS:Y`) for the intervention literature.
 
+## Version 1.1.0: trend component and classifier validation
+
+- `code/trend_component.py` recomputes the surveillance-trend term of the score (without the literature and feasibility terms) under five analytic choices and writes `outputs/trend_component.json`. Run: `python -I code/trend_component.py outputs/trend_component.json`.
+- `validation/validation_codes_final.csv` holds the completed validation of the direction-of-effect classifier: 150 record-intervention pairs with the classifier code, two coders' independent codes and the consensus code (identifiers and codes only; titles and abstracts are in the corpus). `python -I validation/summarise_validation_final.py` writes `outputs/validation_final.json`.
+- Result: inter-coder kappa 0.90; 95 of 150 pairs did not evaluate the assigned intervention; on the 55 genuine evaluations the classifier's direction matched the consensus in 29. The literature-evidence term is not supported by the automated classifier.
+
 ## Citation
 
 Cite the archive by DOI.
