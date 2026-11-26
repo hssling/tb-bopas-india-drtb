@@ -216,6 +216,20 @@ def main():
         "classifier_possible_codes": sorted({r["machine_code"] for r in V}),
     }
 
+    # 9. per-intervention share "not an evaluation" under each reference standard
+    by_node = {}
+    for ref in ("consensus_before_ai_check", "consensus_code"):
+        d = {}
+        for r in V:
+            v = d.setdefault(r["intervention_node"], [0, 0])
+            v[0] += r[ref] == NE
+            v[1] += 1
+        by_node[ref] = {k: {"not_eval": a, "n": n, "wilson": wilson(a, n)}
+                        for k, (a, n) in sorted(d.items(), key=lambda kv: int(kv[0]))}
+        animal = [k for k in d if int(k) in (10, 11, 12)]
+        by_node[ref]["animal_interface_total"] = wilson(sum(d[k][0] for k in animal), sum(d[k][1] for k in animal))
+    res["not_an_evaluation_by_node"] = by_node
+
     # 6. bedaquiline
     res["bedaquiline"] = {y: wilson(int(S["BDQ_res_pct"][y]["num"]), int(S["BDQ_res_pct"][y]["den"]))
                           for y in sorted(S["BDQ_res_pct"])}

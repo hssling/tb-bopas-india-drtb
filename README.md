@@ -111,6 +111,10 @@ evidence stream can support.
 - `data/who_zoonotic_tb_2026-11-26.csv`: WHO Global Tuberculosis Programme zoonotic TB dataset (https://extranet.who.int/tme/generateCSV.asp?ds=zoonotic, retrieved 26 November 2026; years 2018 and 2023).
 - `python -I code/zoonotic_reporting.py` writes `outputs/zoonotic_reporting.json`: India reported no speciation results in 2018 and no zoonotic TB diagnoses in 2023; 34 of 204 responding countries reported zoonotic diagnoses in 2023.
 
+## Version 1.2.2: per-intervention validation shares
+
+- `outputs/revision_analyses.json` now also reports, for each intervention, the share of sampled pairs that are not evaluations under the authors' consensus (primary reference) and under the final codes after re-examination.
+
 ## Version 1.2.1: new versus previously treated patients
 
 - `data/who_dr_surveillance_2026-11-26.csv`: WHO drug-resistance surveillance dataset (https://extranet.who.int/tme/generateCSV.asp?ds=dr_surveillance, retrieved 26 November 2026). `code/revision_analyses.py` now tests whether the 2021 rise in rifampicin resistance among new patients reflects a shift from previously treated patients: it does not; the rise appears in both groups and among all tested patients.
