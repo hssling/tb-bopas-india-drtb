@@ -111,6 +111,12 @@ evidence stream can support.
 - `data/who_zoonotic_tb_2026-11-26.csv`: WHO Global Tuberculosis Programme zoonotic TB dataset (https://extranet.who.int/tme/generateCSV.asp?ds=zoonotic, retrieved 26 November 2026; years 2018 and 2023).
 - `python -I code/zoonotic_reporting.py` writes `outputs/zoonotic_reporting.json`: India reported no speciation results in 2018 and no zoonotic TB diagnoses in 2023; 34 of 204 responding countries reported zoonotic diagnoses in 2023.
 
+## Version 1.2.0: analyses added after peer review
+
+- `python -I code/revision_analyses.py` (needs numpy and scipy) writes `outputs/revision_analyses.json`: segmented models with t intervals at each series' reporting break; rifampicin-testing coverage and the share of notified RR-TB classed as new; treatment-cohort coverage and outcome composition; validation metrics against the final codes, the pre-check consensus and each coder, with Wilson intervals; bedaquiline intervals; and the distribution of WHO zoonotic answers.
+- `data/who_2026-08-25/`: the WHO country files used (notifications, outcomes, laboratory services, data dictionary; release of 25 August 2026).
+- `validation/validation_codes_final.csv` now also holds the consensus before the AI-assisted check and the AI recoding; `validation/ai_blind_recode_prompt.md` gives the model, inputs and instructions.
+
 ## Citation
 
 Cite the archive by DOI.
