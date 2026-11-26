@@ -18,7 +18,7 @@ authors:
     affiliation: "Department of Community Medicine, Shridevi Institute of Medical Sciences and Research Hospital, Tumkur, Karnataka, India"
 license: CC-BY-4.0
 doi: "10.5281/zenodo.24167197"
-version: "1.2.2"
+version: "1.2.3"
 date-released: "2026-11-26"
 repository-code: "https://github.com/hssling/tb-bopas-india-drtb"
 keywords:

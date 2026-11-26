@@ -1,0 +1,107 @@
+{
+ "DAHD_2023-24.pdf": {
+  "url": "https://www.dahd.gov.in/static/uploads/2025/08/62243e99836ac752f30c37a792bc997f.pdf",
+  "sha256": "d86f6643ee8d412f5117bff0bc788c26a51bdafeab8541854950b8e036173c73",
+  "pages": 244,
+  "pages_with_text": 184,
+  "counts": {
+   "tuberculosis": 0,
+   "bovine_tb": 0,
+   "m_bovis": 0,
+   "tuberculin": 0,
+   "brucellosis_control": 15,
+   "fmd_control": 29
+  },
+  "tuberculosis_contexts": []
+ },
+ "DAHD_2024-25.pdf": {
+  "url": "https://www.dahd.gov.in/static/uploads/2025/08/e62dde0085200270e6dd8bc455528ffe.pdf",
+  "sha256": "b972caedb9b2dadd280e356d176481a926b70fb9677b942170a2511497c731f7",
+  "pages": 264,
+  "pages_with_text": 195,
+  "counts": {
+   "tuberculosis": 1,
+   "bovine_tb": 0,
+   "m_bovis": 0,
+   "tuberculin": 0,
+   "brucellosis_control": 16,
+   "fmd_control": 27
+  },
+  "tuberculosis_contexts": [
+   " are infectious diseases that can transfer between animals and humans, such as rabies, anthrax, influenza (H1N1 and H5N1), Nipah, COVID-19, brucellosis, and tuberculosis. These diseases are caused by various pathogens, including bacteria, viruses, parasites, and fungi. 13.4.11. Engaging session organized with A-HELP workers"
+  ]
+ },
+ "DAHD_2025-26.pdf": {
+  "url": "https://www.dahd.gov.in/static/uploads/2026/04/29232c53442fadce97015a62fd715e74.pdf",
+  "sha256": "2c90b63b571dd0c0d32ac253e19b5a307863d945e4184242ed4a1d1f2af15518",
+  "pages": 309,
+  "pages_with_text": 246,
+  "counts": {
+   "tuberculosis": 0,
+   "bovine_tb": 0,
+   "m_bovis": 0,
+   "tuberculin": 0,
+   "brucellosis_control": 5,
+   "fmd_control": 14
+  },
+  "tuberculosis_contexts": []
+ },
+ "NIVEDI_2024.pdf": {
+  "url": "https://nivedi.res.in/pdf/Reports/NIVEDI_Annual_Report_2024.pdf",
+  "sha256": "fa85b2fbd10b91373899540df53737deece91af3cd680e56479b738728084d68",
+  "pages": 139,
+  "pages_with_text": 125,
+  "counts": {
+   "tuberculosis": 11,
+   "bovine_tb": 11,
+   "m_bovis": 0,
+   "tuberculin": 0,
+   "brucellosis_control": 55,
+   "fmd_control": 22
+  },
+  "tuberculosis_contexts": [
+   "rinary microbiology commenced. A total of 49 research projects, including 12 new externally funded ones, addressed priority diseases such as brucellosis, tuberculosis, leptospirosis, trypanosomiasis, PPR, CSF, ASF and LSD, using advanced sero- surveillance, molecular diagnostics and genomic tools. Notable developments in",
+   "g 279 environmental samples, revealing significant resistance to nalidixic acid, tetracycline, amikacin and cephalosporins. Among 157 cattle screened for tuberculosis, 62.82% tested positive via the Single Intradermal Test, 44.87% by CCT and 56.14% by IGRA, reinforcing the urgency for tailored bTB control strategies. Exe",
+   "mmunoreactive. Environmental surveillance in Telangana slaughterhouses identified pathogens including E. coli, S. aureus, Brucella spp. and Mycobacterium tuberculosis complex. Antimicrobial resistance analysis of 230 sheep and environmental samples found multidrug-resistant ESBL E. coli in 27 isolates. Whole-genome sequen",
+   "AMR bacteria in livestock and fishery sector for better health management and production. (N Shivasharanappa, R Shome, ZB Dubal and P Krishnamoorthy) Bovine Tuberculosis in Goa Bovine tuberculosis (bTB) is a chronic zoonotic disease leading to substantial production losses in the dairy sector. It is typically diagnosed in liv",
+   "nd fishery sector for better health management and production. (N Shivasharanappa, R Shome, ZB Dubal and P Krishnamoorthy) Bovine Tuberculosis in Goa Bovine tuberculosis (bTB) is a chronic zoonotic disease leading to substantial production losses in the dairy sector. It is typically diagnosed in live animals using delayed hy",
+   "g cultural, biochemical and molecular methods. From these, 58 isolates of E. coli and 10 isolates of S. aureus were recovered. Additionally, Mycobacterium tuberculosis complex and Brucella spp. were detected in 10 samples each. Parasitic eggs of Haemonchus contortus were identified in one drainage sample. These initial fi",
+   "tive action in combating zoonotic diseases. Over 300 students and teachers participated, learning about rabies, vector- borne diseases, leptospirosis and tuberculosis, with a focus on hygiene, sanitation and disease prevention. ICAR-NIVEDI Marks Independence Day with Patriotic Fervor ICAR-NIVEDI celebrated India’s 77th ",
+   "ril 2023 March 2026 R Shome*, PP Sengupta, SB Shivachandra, V Balamurugan, SS Patil, N Shivasharanappa, GB Manjunatha Reddy, SS Jacob Epidemiology of bovine tuberculosis and paratuberculosis and development of CRISPR- Cas technology-based molecular diagnostic tool for diagnosis of bovine tuberculosis (Institute) July 2023 Jun",
+   "ob Epidemiology of bovine tuberculosis and paratuberculosis and development of CRISPR- Cas technology-based molecular diagnostic tool for diagnosis of bovine tuberculosis (Institute) July 2023 June 2026 M Nagalingam*, R Shome, V Balamurugan, P Krishnamoorthy, N Shivasharanappa Evaluation of status of anthelmintic and acaricid",
+   "4, pp. 391-392. 26. Krishnamoorthy, P., Nagalingam, M., Kalyan, T. V., Suresh, K. P., Shome, R., Balamurugan, V. and Gulati, B. R. 2024. Prevalence of bovine tuberculosis in cattle and buffaloes across different climatic regions of India: A scientometric analysis. In National Symposium on Integrating One Health: Bridging the G",
+   "024, pp. 85-86. 27. Krishnamoorthy, P., Nagalingam, M., Kalyan, T. V., Suresh, K. P., Shome, R., Balamurugan, V. and Gulati, B. R. 2024. Prevalence of bovine tuberculosis in cattle and buffaloes across different regions of India: A scientometric analysis. In XX Annual Conference of the Indian Association of Veterinary Public H"
+  ]
+ },
+ "NIVEDI_2025.pdf": {
+  "url": "https://nivedi.res.in/pdf/Reports/Annual%20Report%202025.pdf",
+  "sha256": "ad366a07724fd86e6e9556ec574d5ac67e5bec9f4fe24f5ef913a0863c9b551b",
+  "pages": 140,
+  "pages_with_text": 132,
+  "counts": {
+   "tuberculosis": 15,
+   "bovine_tb": 8,
+   "m_bovis": 1,
+   "tuberculin": 0,
+   "brucellosis_control": 60,
+   "fmd_control": 22
+  },
+  "tuberculosis_contexts": [
+   "coli across animals, humans, and environments, emphasizing the importance of integrated surveillance. Additional findings included evidence of bovine tuberculosis (4.67% prevalence in Karnataka) and sentinel detection of PPR antibodies in cattle (6%). Overall, these efforts significantly enhanced national capac",
+   "ntegrated One Health surveillance systems to monitor zoonotic risks at the animal–human interface. (Dubal ZB, Suresh KP and Gulati BR) Surveillance of Bovine Tuberculosis in Dairy Cattle of Karnataka, India Bovine tuberculosis (bTB) is a chronic and debilitating disease that leads to significant but often undetected production",
+   "onotic risks at the animal–human interface. (Dubal ZB, Suresh KP and Gulati BR) Surveillance of Bovine Tuberculosis in Dairy Cattle of Karnataka, India Bovine tuberculosis (bTB) is a chronic and debilitating disease that leads to significant but often undetected production losses in the dairy sector and poses an important zoon",
+   "er sampling design. A total of 813 cattle from 36 villages across seven taluks were screened. 0 1 2 3 4 5 6 7 8 9 10 Fig 28: IGRA Positivity (%) for bovine tuberculosis in the taluks of Hassan District, Karnatakạ. The results revealed an overall IGRA positivity rate of 4.67% (Fig 28). Breed-wise analysis 43 Annual Report 2",
+   "ong calves (<1 year), 5.1% among young adults (<3 years), and 4.2% among older cattle (≥3 years). These findings highlight the continued presence of bovine tuberculosis in the region and emphasize the need for strengthened surveillance, early detection, and targeted control strategies to mitigate the disease burden and redu",
+   "igate the disease burden and reduce zoonotic transmission risks. (Nagalingam M, Krishnamoorthy P, Shome R, Balamurugan V and Gulati BR) Prevalence of Zoonotic Tuberculosis in Humans in India: A Meta- analysis Zoonotic tuberculosis (zTB) is an important public health concern in India, arising from transmission of Mycobacterium",
+   "risks. (Nagalingam M, Krishnamoorthy P, Shome R, Balamurugan V and Gulati BR) Prevalence of Zoonotic Tuberculosis in Humans in India: A Meta- analysis Zoonotic tuberculosis (zTB) is an important public health concern in India, arising from transmission of Mycobacterium species from animals to humans. To estimate the prevale",
+   "recorded the highest prevalence (8.2%), whereas Tamil Nadu reported one of the lowest prevalence rates (0.9%). Fig 29: Zone-wise prevalence of zoonotic tuberculosis in humans of India. Diagnostic method–based analysis indicated a higher prevalence detected by molecular methods (4%) compared with culture- based metho",
+   "wed by M. orygis (3%) and other Mycobacterium species. Notably, a greater number of studies reported zTB from extra-pulmonary sites compared with pulmonary tuberculosis cases. Overall, this meta-analysis provides valuable insights into the prevalence and distribution of zoonotic tuberculosis in humans in India. The findings",
+   "y sites compared with pulmonary tuberculosis cases. Overall, this meta-analysis provides valuable insights into the prevalence and distribution of zoonotic tuberculosis in humans in India. The findings can support policymakers in strengthening surveillance, improving diagnostic strategies, and implementing targeted interven",
+   "upport policymakers in strengthening surveillance, improving diagnostic strategies, and implementing targeted interventions to reduce the burden of zoonotic tuberculosis under a One Health framework. (Krishnamoorthy P, Nagalingam M, Suresh KP and Gulati BR) 44 Small Ruminant Diseases Epidemiology Nationwide Surveillance and D",
+   "is) in India. Vet Res Forum. 2025;16(1):51–55. 74. Razzak Mahmood AA, Rani VI, Yadav P, Patil S. Advanced therapeutic interventions targeting Mycobacterium tuberculosis. Arch Razi Inst. 2025;80(1):19–35. 75. Rotluangkimi DK, Sinha D, Dubal ZB, Nandi S, Singh BR, Vinodh Kumar OR. Quantitative risk assessment of African swin",
+   "Indian Association of Veterinary Pathologists; 2025 Dec 4–6; Ranchi, India. 26. Krishnamoorthy P, Nagalingam M, Suresh KP, Gulati BR. Prevalence of zoonotic tuberculosis in humans in India estimated by scientometric analysis. In: International Symposium on Advancing One Health; 2025 Dec 11–12; Ludhiana, Punjab, India. 2",
+   "Shivasharanappa, Vivek Kapur and Baldev Raj Gulati (2025). Molecular identification of Mycobacterium orygis and epidemiological assessment of bovine tuberculosis in Goa. In International Symposium on Advancing One Health: Concept to Action for Promoting Human, Animal and Environmental Health & XXI Annual Conference ",
+   "ation) award at EIAFTBASGD-2025 held at Udaipur. At VIROCON-2025, teams secured Best Oral and Poster Presentation awards across virology, One Health, tuberculosis, and leptospirosis research, including recognition to Dr. M. Nagalingam. At NCVP-2025 (17–19 December 2025, Udgir), the Parasitology team earned multiple "
+  ]
+ }
+}

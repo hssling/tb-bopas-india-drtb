@@ -111,6 +111,10 @@ evidence stream can support.
 - `data/who_zoonotic_tb_2026-11-26.csv`: WHO Global Tuberculosis Programme zoonotic TB dataset (https://extranet.who.int/tme/generateCSV.asp?ds=zoonotic, retrieved 26 November 2026; years 2018 and 2023).
 - `python -I code/zoonotic_reporting.py` writes `outputs/zoonotic_reporting.json`: India reported no speciation results in 2018 and no zoonotic TB diagnoses in 2023; 34 of 204 responding countries reported zoonotic diagnoses in 2023.
 
+## Version 1.2.3: animal-health reports
+
+- `code/animal_sector_search.py` searches the Department of Animal Husbandry and Dairying annual reports 2023-24, 2024-25 and 2025-26 and the ICAR-NIVEDI annual reports 2024 and 2025 (URLs and SHA-256 in the output) for bovine tuberculosis; brucellosis and foot-and-mouth disease are counted as controls. Output: `outputs/animal_sector_search.json`. The reports are not redistributed.
+
 ## Version 1.2.2: per-intervention validation shares
 
 - `outputs/revision_analyses.json` now also reports, for each intervention, the share of sampled pairs that are not evaluations under the authors' consensus (primary reference) and under the final codes after re-examination.
