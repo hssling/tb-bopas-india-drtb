@@ -1,0 +1,36 @@
+{
+ "source": "who_zoonotic_tb_2026-11-26.csv",
+ "sha256": "00bfedfef8137dafeeadefb064719c5ff5a77fb96b444b7fda08c374042e3876",
+ "years_collected": [
+  "2018",
+  "2023"
+ ],
+ "india": {
+  "2018": {
+   "pulm_spec_available": "0",
+   "ep_spec_available": "0"
+  },
+  "2023": {
+   "ident_zoonotic": "0"
+  }
+ },
+ "all_countries_by_year": {
+  "2018": {
+   "countries_in_file": 215,
+   "answered_ident_zoonotic": 0,
+   "ident_zoonotic_yes": 0,
+   "reported_zoonotic_count_above_zero": 0,
+   "pulm_speciation_available": 76
+  },
+  "2023": {
+   "countries_in_file": 215,
+   "answered_ident_zoonotic": 204,
+   "ident_zoonotic_yes": 34,
+   "reported_zoonotic_count_above_zero": 18,
+   "pulm_speciation_available": 0
+  }
+ },
+ "country_years_answering_ident_zoonotic": 204,
+ "country_years_ident_zoonotic_yes": 34,
+ "countries_reporting_zoonotic_count_above_zero": 18
+}

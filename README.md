@@ -106,6 +106,11 @@ evidence stream can support.
 - `validation/validation_codes_final.csv` holds the completed validation of the direction-of-effect classifier: 150 record-intervention pairs with the classifier code, two coders' independent codes and the consensus code (identifiers and codes only; titles and abstracts are in the corpus). `python -I validation/summarise_validation_final.py` writes `outputs/validation_final.json`.
 - Result: inter-coder kappa 0.90; 95 of 150 pairs did not evaluate the assigned intervention; on the 55 genuine evaluations the classifier's direction matched the consensus in 29. The literature-evidence term is not supported by the automated classifier.
 
+## Version 1.1.1: zoonotic tuberculosis reporting
+
+- `data/who_zoonotic_tb_2026-11-26.csv`: WHO Global Tuberculosis Programme zoonotic TB dataset (https://extranet.who.int/tme/generateCSV.asp?ds=zoonotic, retrieved 26 November 2026; years 2018 and 2023).
+- `python -I code/zoonotic_reporting.py` writes `outputs/zoonotic_reporting.json`: India reported no speciation results in 2018 and no zoonotic TB diagnoses in 2023; 34 of 204 responding countries reported zoonotic diagnoses in 2023.
+
 ## Citation
 
 Cite the archive by DOI.
