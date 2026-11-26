@@ -115,6 +115,7 @@ evidence stream can support.
 
 Cite the archive by DOI.
 
+- **Version 1.1.1:** 10.5281/zenodo.24565313
 - **Version 1.1.0:** 10.5281/zenodo.24564979
 - **Version 1.0.1:** 10.5281/zenodo.24169718
 - **Version 1.0.0:** 10.5281/zenodo.24167198
