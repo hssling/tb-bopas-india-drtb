@@ -171,6 +171,8 @@ def main() -> None:
     ws.append(["item", "pair_id", "intervention", "title", "abstract", "coder_A", "coder_B", "agreed_code"])
     for i, (p, c) in enumerate(sample, 1):
         ws.append([i, p["pair_id"], p["intervention"], p["title"], p["abstract"], "", "", ""])
+        for cell in ws[ws.max_row][2:5]:          # harvested text is data, never a formula
+            cell.data_type = "s"
     dv = DataValidation(type="list", formula1='"' + ",".join(CODES) + '"', allow_blank=True)
     ws.add_data_validation(dv)
     dv.add(f"F2:H{len(sample) + 1}")
