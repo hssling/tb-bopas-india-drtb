@@ -42,9 +42,11 @@ def load(d: Path):
     pairs = {p["pair_id"]: p for p in map(json.loads, (d / "pairs_all.jsonl").read_text(encoding="utf-8").splitlines())}
     codes, problems = {}, Counter()
     # batch_* first; recode_* (full text of abstracts the first run cut at 3,500 characters) override them
-    files = sorted((d / "codes").glob("batch_*.codes.jsonl")) + sorted((d / "codes").glob("recode_*.codes.jsonl"))
+    # zscope_* (first-round evaluations rechecked against the written scope rules) override both
+    files = (sorted((d / "codes").glob("batch_*.codes.jsonl")) + sorted((d / "codes").glob("recode_*.codes.jsonl"))
+             + sorted((d / "codes").glob("zscope_*.codes.jsonl")))
     for f in files:
-        recode = f.name.startswith("recode_")
+        recode = f.name.startswith(("recode_", "zscope_"))
         for line in f.read_text(encoding="utf-8").splitlines():
             if not line.strip():
                 continue
@@ -106,6 +108,7 @@ def main() -> None:
         kst = sum(c["code"] == FAV for c in strict)
         ndst = sum(c["code"] in (FAV, NULL) for c in strict)
         strict_counts[nid] = {"k_favours": kst, "n_directional": ndst, "n_total": n}
+        title_only_ev = sum(p["title_only"] and c["code"] != NOT for p, c in items)
         india = sum(c["code"] != NOT and c.get("setting") == "India" for _, c in items)
         share, lo, hi = wilson(ev, n)
         node_counts[nid] = {"k_favours": k, "n_directional": nd, "n_total": n}
@@ -116,7 +119,7 @@ def main() -> None:
                      "L_ai": f"{B.lower_beta_bound(k, nd):.3f}",
                      "comparative_evaluations": len(strict), "L_ai_strict": f"{B.lower_beta_bound(kst, ndst):.3f}",
                      "SR_or_RCT_evaluations": len(top), "L_ai_SR_RCT": f"{B.lower_beta_bound(ktop, ndtop):.3f}",
-                     "india_evaluations": india})
+                     "india_evaluations": india, "title_only_evaluations": title_only_ev})
     with (out / "evidence_by_intervention.csv").open("w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=list(rows[0]))
         w.writeheader()
