@@ -184,7 +184,6 @@ titles and abstracts. The repository holds code, data and checks only.
 
 Cite the archive by DOI.
 
-- **Version 1.3.0:** DOI assigned on release
 - **Version 1.2.3:** 10.5281/zenodo.24566970
 - **Version 1.3.0:** 10.5281/zenodo.24594999
 - **Version 1.2.2:** 10.5281/zenodo.24566563
