@@ -1,0 +1,137 @@
+{
+ "spot_check_60": {
+  "ai_final_vs_agreed_before_adjudication_kappa4": 0.57,
+  "ai_final_vs_agreed_before_adjudication_kappa_eval": 0.59,
+  "ai_at_sampling_vs_agreed_kappa4": 0.48,
+  "adjudication_changed_authors_code": 3,
+  "n": 60,
+  "A_vs_B_kappa": 0.81,
+  "A_vs_B_agree": "52/60",
+  "adjudicated_items": 22,
+  "why_counts": {
+   "AI code correct": 1,
+   "broader scope intended": 15,
+   "both defensible": 4,
+   "our code correct": 2
+  },
+  "ai_final_vs_human_kappa4": 0.64,
+  "agree4": "45/60",
+  "ai_final_vs_human_kappa_eval": 0.7,
+  "agree_eval": "53/60",
+  "ai_tier2_human_eval": 7,
+  "kappa4_excluding": 0.78,
+  "n_excluding": 53,
+  "agree4_excluding": "45/53",
+  "ai_at_sampling_vs_human_kappa4": 0.56,
+  "sample_ai_at_sampling": {
+   "no effect or favours control": 10,
+   "not an evaluation of this intervention": 20,
+   "favours intervention": 20,
+   "unclear": 10
+  },
+  "sample_ai_final": {
+   "no effect or favours control": 11,
+   "favours intervention": 22,
+   "not an evaluation of this intervention": 19,
+   "unclear": 8
+  },
+  "human_final": {
+   "no effect or favours control": 8,
+   "unclear": 9,
+   "not an evaluation of this intervention": 12,
+   "favours intervention": 31
+  },
+  "ai_not_eval_sampled": 19,
+  "ai_not_eval_tier2_sampled": 11,
+  "ai_not_eval_offtopic_sampled": 8,
+  "offtopic_human_eval": 0,
+  "ai_eval_human_not": 0,
+  "confusion": [
+   [
+    [
+     "favours intervention",
+     "favours intervention"
+    ],
+    21
+   ],
+   [
+    [
+     "not an evaluation of this intervention",
+     "not an evaluation of this intervention"
+    ],
+    12
+   ],
+   [
+    [
+     "no effect or favours control",
+     "no effect or favours control"
+    ],
+    8
+   ],
+   [
+    [
+     "not an evaluation of this intervention",
+     "favours intervention"
+    ],
+    6
+   ],
+   [
+    [
+     "unclear",
+     "favours intervention"
+    ],
+    4
+   ],
+   [
+    [
+     "unclear",
+     "unclear"
+    ],
+    4
+   ],
+   [
+    [
+     "no effect or favours control",
+     "unclear"
+    ],
+    3
+   ],
+   [
+    [
+     "favours intervention",
+     "unclear"
+    ],
+    1
+   ],
+   [
+    [
+     "not an evaluation of this intervention",
+     "unclear"
+    ],
+    1
+   ]
+  ],
+  "direction_agree_both_eval": "33/41",
+  "sample_by_node": {
+   "Bovine tuberculosis control": 6,
+   "Whole-genome sequencing for drug-susceptibility prediction": 5,
+   "Airborne infection prevention and control": 3,
+   "Milk pasteurisation / dairy food chain": 1,
+   "TB preventive therapy": 10,
+   "Shorter all-oral regimen rollout (BPaL/BPaL-M)": 8,
+   "Wildlife reservoir surveillance / occupational respiratory protection": 1,
+   "Active case finding": 7,
+   "Nutritional support": 7,
+   "Integrated TB-HIV-diabetes care": 3,
+   "Molecular diagnostic scale-up (Xpert MTB/RIF, Xpert MTB/XDR)": 8,
+   "Private-sector engagement": 1
+  },
+  "sample_title_only": 0
+ },
+ "validation_150": {
+  "n": 150,
+  "human_human_kappa": 0.9,
+  "ai_vs_consensus_before": 0.71,
+  "ai_vs_final_consensus": 0.88
+ }
+}

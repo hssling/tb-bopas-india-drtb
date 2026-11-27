@@ -1,0 +1,61 @@
+item,pair_id,coder_A,coder_B,agreed_code,final_code,reason,ai_code
+1,1543,not an evaluation of this intervention,not an evaluation of this intervention,not an evaluation of this intervention,no effect or favours control,AI code correct,no effect or favours control
+2,2271,unclear,unclear,unclear,unclear,broader scope intended,not an evaluation of this intervention
+3,1061,not an evaluation of this intervention,not an evaluation of this intervention,not an evaluation of this intervention,not an evaluation of this intervention,,not an evaluation of this intervention
+4,1669,not an evaluation of this intervention,not an evaluation of this intervention,not an evaluation of this intervention,not an evaluation of this intervention,,not an evaluation of this intervention
+5,820,no effect or favours control,no effect or favours control,no effect or favours control,no effect or favours control,,no effect or favours control
+6,194,no effect or favours control,no effect or favours control,no effect or favours control,no effect or favours control,broader scope intended,not an evaluation of this intervention
+7,2637,not an evaluation of this intervention,favours intervention,favours intervention,favours intervention,broader scope intended,not an evaluation of this intervention
+8,3567,not an evaluation of this intervention,not an evaluation of this intervention,not an evaluation of this intervention,not an evaluation of this intervention,,not an evaluation of this intervention
+9,2487,unclear,favours intervention,favours intervention,favours intervention,,favours intervention
+10,1501,not an evaluation of this intervention,not an evaluation of this intervention,not an evaluation of this intervention,not an evaluation of this intervention,,not an evaluation of this intervention
+11,2521,favours intervention,favours intervention,favours intervention,favours intervention,broader scope intended,not an evaluation of this intervention
+12,577,favours intervention,favours intervention,favours intervention,favours intervention,,favours intervention
+13,494,favours intervention,favours intervention,favours intervention,favours intervention,,favours intervention
+14,2887,favours intervention,favours intervention,favours intervention,favours intervention,broader scope intended,unclear
+15,1600,not an evaluation of this intervention,not an evaluation of this intervention,not an evaluation of this intervention,unclear,broader scope intended,unclear
+16,412,unclear,unclear,unclear,unclear,both defensible,no effect or favours control
+17,2821,favours intervention,favours intervention,favours intervention,favours intervention,,favours intervention
+18,1418,unclear,favours intervention,favours intervention,favours intervention,broader scope intended,not an evaluation of this intervention
+19,2819,not an evaluation of this intervention,not an evaluation of this intervention,not an evaluation of this intervention,not an evaluation of this intervention,,not an evaluation of this intervention
+20,176,favours intervention,favours intervention,favours intervention,favours intervention,,favours intervention
+21,2404,favours intervention,favours intervention,favours intervention,favours intervention,broader scope intended,unclear
+22,605,favours intervention,favours intervention,favours intervention,favours intervention,,favours intervention
+23,879,no effect or favours control,no effect or favours control,no effect or favours control,no effect or favours control,,no effect or favours control
+24,2093,favours intervention,favours intervention,favours intervention,favours intervention,broader scope intended,unclear
+25,1633,not an evaluation of this intervention,not an evaluation of this intervention,not an evaluation of this intervention,not an evaluation of this intervention,,not an evaluation of this intervention
+26,2412,unclear,unclear,unclear,unclear,,unclear
+27,1176,no effect or favours control,no effect or favours control,no effect or favours control,no effect or favours control,,no effect or favours control
+28,2126,no effect or favours control,no effect or favours control,no effect or favours control,no effect or favours control,,no effect or favours control
+29,2537,unclear,unclear,unclear,unclear,,unclear
+30,204,unclear,unclear,unclear,unclear,,unclear
+31,924,unclear,unclear,unclear,unclear,both defensible,no effect or favours control
+32,304,favours intervention,favours intervention,favours intervention,favours intervention,,favours intervention
+33,3386,not an evaluation of this intervention,not an evaluation of this intervention,not an evaluation of this intervention,not an evaluation of this intervention,,not an evaluation of this intervention
+34,1001,not an evaluation of this intervention,not an evaluation of this intervention,not an evaluation of this intervention,not an evaluation of this intervention,,not an evaluation of this intervention
+35,89,favours intervention,favours intervention,favours intervention,favours intervention,,favours intervention
+36,321,unclear,favours intervention,favours intervention,favours intervention,,favours intervention
+37,1131,favours intervention,favours intervention,favours intervention,favours intervention,,favours intervention
+38,2261,no effect or favours control,no effect or favours control,no effect or favours control,no effect or favours control,,no effect or favours control
+39,90,no effect or favours control,no effect or favours control,no effect or favours control,no effect or favours control,,no effect or favours control
+40,683,unclear,favours intervention,favours intervention,favours intervention,broader scope intended,not an evaluation of this intervention
+41,2636,favours intervention,favours intervention,favours intervention,favours intervention,,favours intervention
+42,325,not an evaluation of this intervention,favours intervention,favours intervention,favours intervention,,favours intervention
+43,545,favours intervention,favours intervention,favours intervention,favours intervention,,favours intervention
+44,215,unclear,favours intervention,favours intervention,favours intervention,both defensible,unclear
+45,1443,favours intervention,favours intervention,favours intervention,favours intervention,broader scope intended,not an evaluation of this intervention
+46,1564,not an evaluation of this intervention,not an evaluation of this intervention,not an evaluation of this intervention,favours intervention,broader scope intended,favours intervention
+47,634,favours intervention,favours intervention,favours intervention,favours intervention,,favours intervention
+48,917,unclear,unclear,unclear,unclear,broader scope intended,not an evaluation of this intervention
+49,866,not an evaluation of this intervention,not an evaluation of this intervention,not an evaluation of this intervention,not an evaluation of this intervention,our code correct,unclear
+50,828,favours intervention,favours intervention,favours intervention,favours intervention,,favours intervention
+51,257,not an evaluation of this intervention,not an evaluation of this intervention,not an evaluation of this intervention,not an evaluation of this intervention,our code correct,unclear
+52,1357,favours intervention,favours intervention,favours intervention,favours intervention,,favours intervention
+53,2893,not an evaluation of this intervention,not an evaluation of this intervention,not an evaluation of this intervention,not an evaluation of this intervention,,not an evaluation of this intervention
+54,802,unclear,unclear,unclear,unclear,both defensible,no effect or favours control
+55,334,favours intervention,favours intervention,favours intervention,favours intervention,,favours intervention
+56,2989,favours intervention,favours intervention,favours intervention,favours intervention,,favours intervention
+57,87,favours intervention,favours intervention,favours intervention,favours intervention,,favours intervention
+58,2818,unclear,favours intervention,favours intervention,favours intervention,broader scope intended,not an evaluation of this intervention
+59,2806,not an evaluation of this intervention,not an evaluation of this intervention,not an evaluation of this intervention,not an evaluation of this intervention,,not an evaluation of this intervention
+60,2117,favours intervention,favours intervention,favours intervention,favours intervention,broader scope intended,not an evaluation of this intervention

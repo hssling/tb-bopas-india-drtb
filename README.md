@@ -1,4 +1,4 @@
-# TB-BOPAS — a Bayesian priority-action score applied to India's drug-resistant tuberculosis surveillance, 2017–2024
+# TB-BOPAS — India's drug-resistant tuberculosis surveillance, 2017–2024, and an evidence map of tuberculosis interventions
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24167197.svg)](https://doi.org/10.5281/zenodo.24167197)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
@@ -100,6 +100,57 @@ evidence stream can support.
   (63,929 against 64,595).
 - PubMed E-utilities and Europe PMC (`OPEN_ACCESS:Y`) for the intervention literature.
 
+## Version 1.3.0: evidence map of the intervention literature
+
+**What it is.** Record-level coding of the 3589 record–intervention pairs in the literature harvest
+(12 interventions; 3572 records after merging 17 duplicate titles). Each record is coded,
+for the intervention it was retrieved for, as an evaluation (with direction, design and setting), as relevant
+without evaluating it (tier 2), or as off-topic, and carries the verbatim span of title or abstract that supports
+the code. A 60-record random sample was coded independently by two human coders. Fixed, ordered rules assign each
+intervention an evidence-readiness tier, with sensitivity analyses.
+
+**Headline counts** (`outputs/full_bopas/results.json`): 746 evaluations, 1295 tier-2 and
+1531 off-topic records; human coders agreed at kappa 0.81; final machine codes against
+the coders' final codes kappa 0.64.
+
+| Path | What it is |
+|---|---|
+| `data/full_bopas/pairs_no_abstract.jsonl` | One line per record–intervention pair: identifiers, intervention, year, title, `title_only`, `abstract_source`, and the SHA-256 and length of the abstract text that was coded. The abstract text itself is not redistributed. |
+| `data/full_bopas/codes/*.codes.jsonl` | Every coding layer, unchanged. Applied in the order `batch_*` → `recode_*` → `zscope_*` → `ztier_*` → `zz*`; a later layer overrides an earlier one for the same `pair_id`. |
+| `data/full_bopas/codebook.md` | The instructions given to the model, including the scope of each intervention and the tier-2 rule. |
+| `data/full_bopas/spot_check_codes.csv` | The 60-record human check: item, pair_id, each coder's independent code, the agreed code, the final code after adjudication, the recorded reason, and the machine code at sampling. No names. |
+| `code/full_bopas/paper/analysis.py` | Evidence counts, Wilson intervals, lower credible bounds, readiness tiers and sensitivity analyses, agreement statistics. Writes `outputs/full_bopas/results.json`, `readiness.csv`, `agreement.json`. |
+| `code/full_bopas/paper/build_figures.py` | Figures from `results.json` into `outputs/full_bopas/figures/` (PNG). |
+| `outputs/full_bopas/evidence_by_intervention.csv` | Per-intervention summary from the coding pipeline (`code/full_bopas/analyse_codes.py`), used as a cross-check. |
+
+**Reproduce.**
+
+```
+python -I code/full_bopas/paper/analysis.py
+python -I code/full_bopas/paper/build_figures.py
+```
+
+Two fields need the abstract text and are written as `null` without it: `quotes_verbatim` and `off_topic_terms`.
+To compute them, rebuild the abstracts with `code/full_bopas/prepare_batches.py` (from
+`data/tb_interventions_unified.csv`), `fetch_abstracts.py` and `merge_fetched.py` (NCBI E-utilities), then run
+`analysis.py --pairs-with-abstracts <pairs_all.jsonl>`; every abstract is checked against the stored SHA-256 first.
+Run from the repository with these files, `analysis.py` reproduced the committed `results.json` field for field,
+except those two fields; with the abstracts supplied, it reproduced every field.
+
+**AI coding disclosure.** The records were coded by a large language model, Claude Opus 5.5 (Anthropic), in
+November 2026, in batches, following `codebook.md`. Part of the work for the bovine TB, milk and wildlife/occupational interventions
+(840 final codes) was done by a Claude Sonnet model with the identical codebook, because the provider's automated
+safety filter halted several Opus runs. Codebook wording changed between rounds and earlier codes were
+re-examined after each change; every round is kept as a separate layer. Each code carries a verbatim supporting quote, matched to the coded
+text by script (3572/3572 matched). Two human coders checked a random sample; see
+`outputs/full_bopas/agreement.json`. The analysis code, figures and this documentation were written with Claude
+under the authors' direction.
+
+**Data provenance.** Pairs come from `data/tb_interventions_unified.csv` (searched 20 May 2026). Records that had no
+abstract were given the PubMed abstract fetched by PMID in November 2026, attached only when its title agreed with
+the record's title; suspected mismatched abstracts were removed. Quotes in the code files are short verbatim spans of
+titles and abstracts. The repository holds code, data and checks only.
+
 ## Version 1.1.0: trend component and classifier validation
 
 - `code/trend_component.py` recomputes the surveillance-trend term of the score (without the literature and feasibility terms) under five analytic choices and writes `outputs/trend_component.json`. Run: `python -I code/trend_component.py outputs/trend_component.json`.
@@ -133,6 +184,7 @@ evidence stream can support.
 
 Cite the archive by DOI.
 
+- **Version 1.3.0:** DOI assigned on release
 - **Version 1.2.3:** 10.5281/zenodo.24566970
 - **Version 1.2.2:** 10.5281/zenodo.24566563
 - **Version 1.2.1:** 10.5281/zenodo.24566120

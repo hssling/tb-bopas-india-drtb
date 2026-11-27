@@ -1,0 +1,13 @@
+node_id,intervention,pairs_coded,evaluations,evaluation_share,share_lo,share_hi,favours,no_effect_or_control,unclear,favourable_share,L_ai,comparative_evaluations,L_ai_strict,SR_or_RCT_evaluations,L_ai_SR_RCT,india_evaluations,title_only_evaluations,tier2_relevant,off_topic
+1,Shorter all-oral regimen rollout (BPaL/BPaL-M),329,110,0.334,0.286,0.387,88,8,14,0.917,0.856,79,0.838,35,0.841,6,3,177,42
+2,"Molecular diagnostic scale-up (Xpert MTB/RIF, Xpert MTB/XDR)",316,116,0.367,0.316,0.422,84,10,22,0.894,0.828,97,0.842,7,0.341,16,3,109,91
+3,Whole-genome sequencing for drug-susceptibility prediction,294,92,0.313,0.263,0.368,70,4,18,0.946,0.882,81,0.870,4,0.473,2,4,141,61
+4,Active case finding,302,84,0.278,0.231,0.331,56,9,19,0.862,0.774,53,0.689,26,0.418,4,3,121,97
+5,TB preventive therapy,312,116,0.372,0.320,0.427,74,26,16,0.740,0.661,84,0.561,56,0.474,5,2,148,48
+6,Airborne infection prevention and control,351,24,0.068,0.046,0.100,17,2,5,0.895,0.717,13,0.661,2,0.135,2,1,76,251
+7,Nutritional support,240,37,0.154,0.114,0.205,24,4,9,0.857,0.712,25,0.645,12,0.493,21,0,71,132
+8,Private-sector engagement,218,39,0.179,0.134,0.235,34,0,5,1.000,0.918,18,0.847,2,0.224,19,1,40,139
+9,Integrated TB-HIV-diabetes care,348,47,0.135,0.103,0.175,31,1,15,0.969,0.864,15,0.779,5,0.368,3,0,173,128
+10,Bovine tuberculosis control,304,76,0.250,0.205,0.302,50,7,19,0.877,0.785,53,0.743,4,0.013,1,1,167,61
+11,Milk pasteurisation / dairy food chain,285,1,0.004,0.001,0.020,1,0,0,1.000,0.224,1,0.224,1,0.224,0,0,47,237
+12,Wildlife reservoir surveillance / occupational respiratory protection,273,4,0.015,0.006,0.037,1,0,3,1.000,0.224,3,0.224,0,0.000,0,0,25,244

@@ -1,0 +1,1188 @@
+{
+ "files_by_round": {
+  "batch_*": 16,
+  "recode_*": 13,
+  "zscope_*": 5,
+  "ztier_*": 14,
+  "zz*": 2
+ },
+ "pairs": 3589,
+ "coded": 3589,
+ "merged": 17,
+ "analysed": 3572,
+ "sources_pairs": {
+  "pubmed": 2021,
+  "europepmc": 1568
+ },
+ "abstract_source_pairs": {
+  "original harvest": 2101,
+  "dropped_mismatch": 7,
+  "pubmed_efetch_xml": 1481
+ },
+ "title_only_pairs": 135,
+ "title_only_analysed": 132,
+ "quotes_verbatim": 3572,
+ "records_per_node": {
+  "1": {
+   "pubmed": 200,
+   "europepmc": 133
+  },
+  "2": {
+   "pubmed": 200,
+   "europepmc": 116
+  },
+  "3": {
+   "pubmed": 189,
+   "europepmc": 109
+  },
+  "4": {
+   "pubmed": 146,
+   "europepmc": 157
+  },
+  "5": {
+   "pubmed": 191,
+   "europepmc": 123
+  },
+  "6": {
+   "pubmed": 199,
+   "europepmc": 153
+  },
+  "7": {
+   "pubmed": 90,
+   "europepmc": 152
+  },
+  "8": {
+   "pubmed": 48,
+   "europepmc": 170
+  },
+  "9": {
+   "pubmed": 197,
+   "europepmc": 151
+  },
+  "10": {
+   "pubmed": 200,
+   "europepmc": 105
+  },
+  "11": {
+   "pubmed": 186,
+   "europepmc": 101
+  },
+  "12": {
+   "pubmed": 175,
+   "europepmc": 98
+  }
+ },
+ "years": {
+  "n_with_year": 3572,
+  "min": 1980,
+  "max": 2026,
+  "median": 2025.0,
+  "share_2025_2026": 0.576,
+  "n_2025_2026": 2058,
+  "share_2023_2026": 0.829,
+  "before_2017": 202,
+  "by_year": {
+   "1980": 1,
+   "1990": 2,
+   "1993": 1,
+   "1997": 3,
+   "1998": 4,
+   "1999": 2,
+   "2000": 1,
+   "2001": 1,
+   "2002": 2,
+   "2003": 6,
+   "2004": 9,
+   "2005": 4,
+   "2006": 3,
+   "2007": 7,
+   "2008": 13,
+   "2009": 9,
+   "2010": 20,
+   "2011": 18,
+   "2012": 14,
+   "2013": 22,
+   "2014": 10,
+   "2015": 26,
+   "2016": 24,
+   "2017": 34,
+   "2018": 32,
+   "2019": 43,
+   "2020": 57,
+   "2021": 83,
+   "2022": 161,
+   "2023": 332,
+   "2024": 570,
+   "2025": 1243,
+   "2026": 815
+  },
+  "evaluations_share_2025_2026": 0.525
+ },
+ "years_by_source": {
+  "pubmed": {
+   "n": 2007,
+   "median": 2024,
+   "share_2025_2026": 0.435
+  },
+  "europepmc": {
+   "n": 1565,
+   "median": 2025,
+   "share_2025_2026": 0.757
+  }
+ },
+ "final_codes_from_sonnet": 840,
+ "final_codes_from_sonnet_by_node": {
+  "10": 282,
+  "11": 285,
+  "12": 273
+ },
+ "final_code_round": {
+  "zscope": 466,
+  "ztier": 2886,
+  "zzfull": 25,
+  "recode": 194,
+  "zzfix": 1
+ },
+ "first_round_vs_final_changed": 172,
+ "first_round_vs_final_n": 3572,
+ "first_round_to_final_transitions": [
+  [
+   [
+    "unclear",
+    "not an evaluation of this intervention"
+   ],
+   58
+  ],
+  [
+   [
+    "not an evaluation of this intervention",
+    "favours intervention"
+   ],
+   55
+  ],
+  [
+   [
+    "favours intervention",
+    "not an evaluation of this intervention"
+   ],
+   33
+  ],
+  [
+   [
+    "not an evaluation of this intervention",
+    "unclear"
+   ],
+   12
+  ],
+  [
+   [
+    "not an evaluation of this intervention",
+    "no effect or favours control"
+   ],
+   6
+  ],
+  [
+   [
+    "no effect or favours control",
+    "not an evaluation of this intervention"
+   ],
+   6
+  ],
+  [
+   [
+    "no effect or favours control",
+    "favours intervention"
+   ],
+   2
+  ]
+ ],
+ "first_round_evaluations": 770,
+ "overall": {
+  "evaluations": 746,
+  "eval_share_ci": [
+   0.209,
+   0.196,
+   0.222
+  ],
+  "favours": 530,
+  "no_effect": 71,
+  "unclear": 145,
+  "tier2": 1295,
+  "tier2_share": 0.363,
+  "off_topic": 1531,
+  "off_share": 0.429,
+  "fav_share_directional": [
+   0.882,
+   0.854,
+   0.905
+  ],
+  "eval_plus_tier2_share": 0.571,
+  "tier2_missing_flag": 0
+ },
+ "direction_by_design": {
+  "systematic review/meta-analysis": {
+   "evaluations": 68,
+   "favours": 43,
+   "no_effect": 2,
+   "unclear": 23,
+   "directional": 45,
+   "fav_share": 0.956,
+   "lo": 0.852,
+   "hi": 0.988
+  },
+  "randomised trial": {
+   "evaluations": 86,
+   "favours": 42,
+   "no_effect": 34,
+   "unclear": 10,
+   "directional": 76,
+   "fav_share": 0.553,
+   "lo": 0.441,
+   "hi": 0.659
+  },
+  "non-randomised comparative (cohort, quasi-experimental, before-after, interrupted time series)": {
+   "evaluations": 132,
+   "favours": 105,
+   "no_effect": 12,
+   "unclear": 15,
+   "directional": 117,
+   "fav_share": 0.897,
+   "lo": 0.829,
+   "hi": 0.94
+  },
+  "diagnostic accuracy": {
+   "evaluations": 194,
+   "favours": 146,
+   "no_effect": 11,
+   "unclear": 37,
+   "directional": 157,
+   "fav_share": 0.93,
+   "lo": 0.879,
+   "hi": 0.96
+  },
+  "economic evaluation": {
+   "evaluations": 42,
+   "favours": 38,
+   "no_effect": 2,
+   "unclear": 2,
+   "directional": 40,
+   "fav_share": 0.95,
+   "lo": 0.835,
+   "hi": 0.986
+  },
+  "modelling": {
+   "evaluations": 36,
+   "favours": 28,
+   "no_effect": 0,
+   "unclear": 8,
+   "directional": 28,
+   "fav_share": 1.0,
+   "lo": 0.879,
+   "hi": 1.0
+  },
+  "implementation/programme report (no comparator)": {
+   "evaluations": 127,
+   "favours": 98,
+   "no_effect": 5,
+   "unclear": 24,
+   "directional": 103,
+   "fav_share": 0.951,
+   "lo": 0.891,
+   "hi": 0.979
+  },
+  "other": {
+   "evaluations": 61,
+   "favours": 30,
+   "no_effect": 5,
+   "unclear": 26,
+   "directional": 35,
+   "fav_share": 0.857,
+   "lo": 0.706,
+   "hi": 0.937
+  }
+ },
+ "designs_other_than_listed": {},
+ "fav_share_strong": [
+  0.702,
+  0.616,
+  0.777,
+  85,
+  36
+ ],
+ "fav_share_programme": [
+  0.951,
+  0.891,
+  0.979,
+  98,
+  5
+ ],
+ "setting_evaluations": {
+  "multi-country": 125,
+  "high-income": 101,
+  "other low/middle-income": 358,
+  "India": 79,
+  "not stated": 83
+ },
+ "india_evaluations": 79,
+ "india_share_of_evaluations": 0.106,
+ "india_strong": 5,
+ "india_strong_by_node": {
+  "1": 2,
+  "7": 2,
+  "8": 1
+ },
+ "india_designs": {
+  "economic evaluation": 8,
+  "non-randomised comparative (cohort, quasi-experimental, before-after, interrupted time series)": 20,
+  "randomised trial": 4,
+  "implementation/programme report (no comparator)": 19,
+  "diagnostic accuracy": 17,
+  "modelling": 4,
+  "systematic review/meta-analysis": 1,
+  "other": 6
+ },
+ "interventions": [
+  {
+   "node_id": "1",
+   "intervention": "Shorter all-oral regimens for RR-TB",
+   "group": "Human health",
+   "records": 329,
+   "evaluations": 110,
+   "eval_share": 0.334,
+   "eval_lo": 0.286,
+   "eval_hi": 0.387,
+   "tier2": 177,
+   "off_topic": 42,
+   "favours": 88,
+   "no_effect": 8,
+   "unclear": 14,
+   "fav_share": 0.917,
+   "L_all": 0.856,
+   "comparative": 79,
+   "L_strict": 0.838,
+   "rct_favours": 12,
+   "rct_null": 1,
+   "strong": 35,
+   "SR": 19,
+   "RCT": 16,
+   "NRS": 31,
+   "accuracy": 1,
+   "economic": 12,
+   "modelling": 0,
+   "programme": 29,
+   "other_design": 2,
+   "outcome_comparative": 66,
+   "L_strong": 0.841,
+   "strong_directional": 27,
+   "k_strict": 63,
+   "n_strict_directional": 69,
+   "k_strong": 26,
+   "settings": "6 / 50 / 6 / 43 / 5",
+   "fav_share_strict": 0.913,
+   "india": 6,
+   "title_only_evals": 3,
+   "india_flag": "scarce",
+   "tier": "Ready to scale with monitoring",
+   "tier_all_designs": "Ready to scale with monitoring",
+   "tier_strong_bound": "Ready to scale with monitoring",
+   "tier_thresholds_5": "Ready to scale with monitoring",
+   "tier_thresholds_20": "Ready to scale with monitoring",
+   "tier_without_null_trial_rule": "Ready to scale with monitoring"
+  },
+  {
+   "node_id": "2",
+   "intervention": "Rapid molecular diagnostics (Xpert, Truenat)",
+   "group": "Human health",
+   "records": 316,
+   "evaluations": 116,
+   "eval_share": 0.367,
+   "eval_lo": 0.316,
+   "eval_hi": 0.422,
+   "tier2": 109,
+   "off_topic": 91,
+   "favours": 84,
+   "no_effect": 10,
+   "unclear": 22,
+   "fav_share": 0.894,
+   "L_all": 0.828,
+   "comparative": 97,
+   "L_strict": 0.842,
+   "rct_favours": 0,
+   "rct_null": 1,
+   "strong": 7,
+   "SR": 6,
+   "RCT": 1,
+   "NRS": 1,
+   "accuracy": 84,
+   "economic": 5,
+   "modelling": 1,
+   "programme": 10,
+   "other_design": 8,
+   "outcome_comparative": 8,
+   "L_strong": 0.341,
+   "strong_directional": 6,
+   "k_strict": 72,
+   "n_strict_directional": 79,
+   "k_strong": 4,
+   "settings": "16 / 63 / 10 / 14 / 13",
+   "fav_share_strict": 0.911,
+   "india": 16,
+   "title_only_evals": 3,
+   "india_flag": "available",
+   "tier": "Evaluate before (further) scale-up",
+   "tier_all_designs": "Evaluate before (further) scale-up",
+   "tier_strong_bound": "Evaluate before (further) scale-up",
+   "tier_thresholds_5": "Evaluate before (further) scale-up",
+   "tier_thresholds_20": "Evaluate before (further) scale-up",
+   "tier_without_null_trial_rule": "Evaluate before (further) scale-up"
+  },
+  {
+   "node_id": "3",
+   "intervention": "Sequencing for drug-susceptibility prediction",
+   "group": "Human health",
+   "records": 294,
+   "evaluations": 92,
+   "eval_share": 0.313,
+   "eval_lo": 0.263,
+   "eval_hi": 0.368,
+   "tier2": 141,
+   "off_topic": 61,
+   "favours": 70,
+   "no_effect": 4,
+   "unclear": 18,
+   "fav_share": 0.946,
+   "L_all": 0.882,
+   "comparative": 81,
+   "L_strict": 0.87,
+   "rct_favours": 0,
+   "rct_null": 0,
+   "strong": 4,
+   "SR": 4,
+   "RCT": 0,
+   "NRS": 0,
+   "accuracy": 72,
+   "economic": 5,
+   "modelling": 1,
+   "programme": 4,
+   "other_design": 6,
+   "outcome_comparative": 4,
+   "L_strong": 0.473,
+   "strong_directional": 3,
+   "k_strict": 63,
+   "n_strict_directional": 67,
+   "k_strong": 3,
+   "settings": "2 / 29 / 15 / 15 / 31",
+   "fav_share_strict": 0.94,
+   "india": 2,
+   "title_only_evals": 4,
+   "india_flag": "scarce",
+   "tier": "Evaluate before (further) scale-up",
+   "tier_all_designs": "Evaluate before (further) scale-up",
+   "tier_strong_bound": "Evaluate before (further) scale-up",
+   "tier_thresholds_5": "Evaluate before (further) scale-up",
+   "tier_thresholds_20": "Evaluate before (further) scale-up",
+   "tier_without_null_trial_rule": "Evaluate before (further) scale-up"
+  },
+  {
+   "node_id": "4",
+   "intervention": "Active case finding",
+   "group": "Human health",
+   "records": 302,
+   "evaluations": 84,
+   "eval_share": 0.278,
+   "eval_lo": 0.231,
+   "eval_hi": 0.331,
+   "tier2": 121,
+   "off_topic": 97,
+   "favours": 56,
+   "no_effect": 9,
+   "unclear": 19,
+   "fav_share": 0.862,
+   "L_all": 0.774,
+   "comparative": 53,
+   "L_strict": 0.689,
+   "rct_favours": 7,
+   "rct_null": 7,
+   "strong": 26,
+   "SR": 10,
+   "RCT": 16,
+   "NRS": 23,
+   "accuracy": 2,
+   "economic": 2,
+   "modelling": 6,
+   "programme": 19,
+   "other_design": 6,
+   "outcome_comparative": 49,
+   "L_strong": 0.418,
+   "strong_directional": 18,
+   "k_strict": 34,
+   "n_strict_directional": 42,
+   "k_strong": 11,
+   "settings": "4 / 51 / 14 / 10 / 5",
+   "fav_share_strict": 0.81,
+   "india": 4,
+   "title_only_evals": 3,
+   "india_flag": "scarce",
+   "tier": "Ready to scale with monitoring",
+   "tier_all_designs": "Ready to scale with monitoring",
+   "tier_strong_bound": "Implement and evaluate in India",
+   "tier_thresholds_5": "Ready to scale with monitoring",
+   "tier_thresholds_20": "Ready to scale with monitoring",
+   "tier_without_null_trial_rule": "Ready to scale with monitoring"
+  },
+  {
+   "node_id": "5",
+   "intervention": "TB preventive treatment",
+   "group": "Human health",
+   "records": 312,
+   "evaluations": 116,
+   "eval_share": 0.372,
+   "eval_lo": 0.32,
+   "eval_hi": 0.427,
+   "tier2": 148,
+   "off_topic": 48,
+   "favours": 74,
+   "no_effect": 26,
+   "unclear": 16,
+   "fav_share": 0.74,
+   "L_all": 0.661,
+   "comparative": 84,
+   "L_strict": 0.561,
+   "rct_favours": 15,
+   "rct_null": 20,
+   "strong": 56,
+   "SR": 17,
+   "RCT": 39,
+   "NRS": 20,
+   "accuracy": 0,
+   "economic": 8,
+   "modelling": 9,
+   "programme": 10,
+   "other_design": 13,
+   "outcome_comparative": 76,
+   "L_strong": 0.474,
+   "strong_directional": 49,
+   "k_strict": 48,
+   "n_strict_directional": 73,
+   "k_strong": 29,
+   "settings": "5 / 67 / 7 / 28 / 9",
+   "fav_share_strict": 0.658,
+   "india": 5,
+   "title_only_evals": 2,
+   "india_flag": "scarce",
+   "tier": "Ready to scale with monitoring",
+   "tier_all_designs": "Ready to scale with monitoring",
+   "tier_strong_bound": "Implement and evaluate in India",
+   "tier_thresholds_5": "Ready to scale with monitoring",
+   "tier_thresholds_20": "Ready to scale with monitoring",
+   "tier_without_null_trial_rule": "Ready to scale with monitoring"
+  },
+  {
+   "node_id": "6",
+   "intervention": "Airborne infection prevention and control",
+   "group": "Human health",
+   "records": 351,
+   "evaluations": 24,
+   "eval_share": 0.068,
+   "eval_lo": 0.046,
+   "eval_hi": 0.1,
+   "tier2": 76,
+   "off_topic": 251,
+   "favours": 17,
+   "no_effect": 2,
+   "unclear": 5,
+   "fav_share": 0.895,
+   "L_all": 0.717,
+   "comparative": 13,
+   "L_strict": 0.661,
+   "rct_favours": 0,
+   "rct_null": 1,
+   "strong": 2,
+   "SR": 1,
+   "RCT": 1,
+   "NRS": 8,
+   "accuracy": 1,
+   "economic": 2,
+   "modelling": 6,
+   "programme": 0,
+   "other_design": 5,
+   "outcome_comparative": 10,
+   "L_strong": 0.135,
+   "strong_directional": 2,
+   "k_strict": 10,
+   "n_strict_directional": 11,
+   "k_strong": 1,
+   "settings": "2 / 17 / 2 / 0 / 3",
+   "fav_share_strict": 0.909,
+   "india": 2,
+   "title_only_evals": 1,
+   "india_flag": "scarce",
+   "tier": "Evaluate before (further) scale-up",
+   "tier_all_designs": "Evaluate before (further) scale-up",
+   "tier_strong_bound": "Evaluate before (further) scale-up",
+   "tier_thresholds_5": "Evaluate before (further) scale-up",
+   "tier_thresholds_20": "Evaluate before (further) scale-up",
+   "tier_without_null_trial_rule": "Implement and evaluate in India"
+  },
+  {
+   "node_id": "7",
+   "intervention": "Nutritional support",
+   "group": "Human health",
+   "records": 240,
+   "evaluations": 37,
+   "eval_share": 0.154,
+   "eval_lo": 0.114,
+   "eval_hi": 0.205,
+   "tier2": 71,
+   "off_topic": 132,
+   "favours": 24,
+   "no_effect": 4,
+   "unclear": 9,
+   "fav_share": 0.857,
+   "L_all": 0.712,
+   "comparative": 25,
+   "L_strict": 0.645,
+   "rct_favours": 6,
+   "rct_null": 1,
+   "strong": 12,
+   "SR": 5,
+   "RCT": 7,
+   "NRS": 10,
+   "accuracy": 0,
+   "economic": 3,
+   "modelling": 2,
+   "programme": 7,
+   "other_design": 3,
+   "outcome_comparative": 22,
+   "L_strong": 0.493,
+   "strong_directional": 9,
+   "k_strict": 18,
+   "n_strict_directional": 22,
+   "k_strong": 7,
+   "settings": "21 / 9 / 0 / 4 / 3",
+   "fav_share_strict": 0.818,
+   "india": 21,
+   "title_only_evals": 0,
+   "india_flag": "available",
+   "tier": "Ready to scale with monitoring",
+   "tier_all_designs": "Ready to scale with monitoring",
+   "tier_strong_bound": "Implement and evaluate in India",
+   "tier_thresholds_5": "Ready to scale with monitoring",
+   "tier_thresholds_20": "Implement and evaluate in India",
+   "tier_without_null_trial_rule": "Ready to scale with monitoring"
+  },
+  {
+   "node_id": "8",
+   "intervention": "Private-sector engagement",
+   "group": "Human health",
+   "records": 218,
+   "evaluations": 39,
+   "eval_share": 0.179,
+   "eval_lo": 0.134,
+   "eval_hi": 0.235,
+   "tier2": 40,
+   "off_topic": 139,
+   "favours": 34,
+   "no_effect": 0,
+   "unclear": 5,
+   "fav_share": 1.0,
+   "L_all": 0.918,
+   "comparative": 18,
+   "L_strict": 0.847,
+   "rct_favours": 0,
+   "rct_null": 0,
+   "strong": 2,
+   "SR": 2,
+   "RCT": 0,
+   "NRS": 13,
+   "accuracy": 0,
+   "economic": 3,
+   "modelling": 3,
+   "programme": 18,
+   "other_design": 0,
+   "outcome_comparative": 15,
+   "L_strong": 0.224,
+   "strong_directional": 1,
+   "k_strict": 17,
+   "n_strict_directional": 17,
+   "k_strong": 1,
+   "settings": "19 / 15 / 0 / 5 / 0",
+   "fav_share_strict": 1.0,
+   "india": 19,
+   "title_only_evals": 1,
+   "india_flag": "available",
+   "tier": "Implement and evaluate in India",
+   "tier_all_designs": "Implement and evaluate in India",
+   "tier_strong_bound": "Implement and evaluate in India",
+   "tier_thresholds_5": "Implement and evaluate in India",
+   "tier_thresholds_20": "Evaluate before (further) scale-up",
+   "tier_without_null_trial_rule": "Implement and evaluate in India"
+  },
+  {
+   "node_id": "9",
+   "intervention": "Integrated TB-HIV-diabetes care",
+   "group": "Human health",
+   "records": 348,
+   "evaluations": 47,
+   "eval_share": 0.135,
+   "eval_lo": 0.103,
+   "eval_hi": 0.175,
+   "tier2": 173,
+   "off_topic": 128,
+   "favours": 31,
+   "no_effect": 1,
+   "unclear": 15,
+   "fav_share": 0.969,
+   "L_all": 0.864,
+   "comparative": 15,
+   "L_strict": 0.779,
+   "rct_favours": 2,
+   "rct_null": 0,
+   "strong": 5,
+   "SR": 3,
+   "RCT": 2,
+   "NRS": 8,
+   "accuracy": 0,
+   "economic": 2,
+   "modelling": 3,
+   "programme": 24,
+   "other_design": 5,
+   "outcome_comparative": 13,
+   "L_strong": 0.368,
+   "strong_directional": 2,
+   "k_strict": 11,
+   "n_strict_directional": 11,
+   "k_strong": 2,
+   "settings": "3 / 36 / 1 / 5 / 2",
+   "fav_share_strict": 1.0,
+   "india": 3,
+   "title_only_evals": 0,
+   "india_flag": "scarce",
+   "tier": "Implement and evaluate in India",
+   "tier_all_designs": "Implement and evaluate in India",
+   "tier_strong_bound": "Implement and evaluate in India",
+   "tier_thresholds_5": "Ready to scale with monitoring",
+   "tier_thresholds_20": "Evaluate before (further) scale-up",
+   "tier_without_null_trial_rule": "Implement and evaluate in India"
+  },
+  {
+   "node_id": "10",
+   "intervention": "Bovine TB control",
+   "group": "One Health",
+   "records": 304,
+   "evaluations": 76,
+   "eval_share": 0.25,
+   "eval_lo": 0.205,
+   "eval_hi": 0.302,
+   "tier2": 167,
+   "off_topic": 61,
+   "favours": 50,
+   "no_effect": 7,
+   "unclear": 19,
+   "fav_share": 0.877,
+   "L_all": 0.785,
+   "comparative": 53,
+   "L_strict": 0.743,
+   "rct_favours": 0,
+   "rct_null": 3,
+   "strong": 4,
+   "SR": 0,
+   "RCT": 4,
+   "NRS": 17,
+   "accuracy": 32,
+   "economic": 0,
+   "modelling": 4,
+   "programme": 6,
+   "other_design": 13,
+   "outcome_comparative": 21,
+   "L_strong": 0.013,
+   "strong_directional": 3,
+   "k_strict": 36,
+   "n_strict_directional": 42,
+   "k_strong": 0,
+   "settings": "1 / 21 / 41 / 1 / 12",
+   "fav_share_strict": 0.857,
+   "india": 1,
+   "title_only_evals": 1,
+   "india_flag": "scarce",
+   "tier": "Evaluate before (further) scale-up",
+   "tier_all_designs": "Evaluate before (further) scale-up",
+   "tier_strong_bound": "Evaluate before (further) scale-up",
+   "tier_thresholds_5": "Evaluate before (further) scale-up",
+   "tier_thresholds_20": "Evaluate before (further) scale-up",
+   "tier_without_null_trial_rule": "Implement and evaluate in India"
+  },
+  {
+   "node_id": "11",
+   "intervention": "Milk pasteurisation and dairy-chain controls",
+   "group": "One Health",
+   "records": 285,
+   "evaluations": 1,
+   "eval_share": 0.004,
+   "eval_lo": 0.001,
+   "eval_hi": 0.02,
+   "tier2": 47,
+   "off_topic": 237,
+   "favours": 1,
+   "no_effect": 0,
+   "unclear": 0,
+   "fav_share": 1.0,
+   "L_all": 0.224,
+   "comparative": 1,
+   "L_strict": 0.224,
+   "rct_favours": 0,
+   "rct_null": 0,
+   "strong": 1,
+   "SR": 1,
+   "RCT": 0,
+   "NRS": 0,
+   "accuracy": 0,
+   "economic": 0,
+   "modelling": 0,
+   "programme": 0,
+   "other_design": 0,
+   "outcome_comparative": 1,
+   "L_strong": 0.224,
+   "strong_directional": 1,
+   "k_strict": 1,
+   "n_strict_directional": 1,
+   "k_strong": 1,
+   "settings": "0 / 0 / 1 / 0 / 0",
+   "fav_share_strict": 1.0,
+   "india": 0,
+   "title_only_evals": 0,
+   "india_flag": "scarce",
+   "tier": "Research gap",
+   "tier_all_designs": "Research gap",
+   "tier_strong_bound": "Research gap",
+   "tier_thresholds_5": "Research gap",
+   "tier_thresholds_20": "Research gap",
+   "tier_without_null_trial_rule": "Research gap"
+  },
+  {
+   "node_id": "12",
+   "intervention": "Wildlife surveillance and occupational protection",
+   "group": "One Health",
+   "records": 273,
+   "evaluations": 4,
+   "eval_share": 0.015,
+   "eval_lo": 0.006,
+   "eval_hi": 0.037,
+   "tier2": 25,
+   "off_topic": 244,
+   "favours": 1,
+   "no_effect": 0,
+   "unclear": 3,
+   "fav_share": 1.0,
+   "L_all": 0.224,
+   "comparative": 3,
+   "L_strict": 0.224,
+   "rct_favours": 0,
+   "rct_null": 0,
+   "strong": 0,
+   "SR": 0,
+   "RCT": 0,
+   "NRS": 1,
+   "accuracy": 2,
+   "economic": 0,
+   "modelling": 1,
+   "programme": 0,
+   "other_design": 0,
+   "outcome_comparative": 1,
+   "L_strong": 0.0,
+   "strong_directional": 0,
+   "k_strict": 1,
+   "n_strict_directional": 1,
+   "k_strong": 0,
+   "settings": "0 / 0 / 4 / 0 / 0",
+   "fav_share_strict": 1.0,
+   "india": 0,
+   "title_only_evals": 0,
+   "india_flag": "scarce",
+   "tier": "Research gap",
+   "tier_all_designs": "Research gap",
+   "tier_strong_bound": "Research gap",
+   "tier_thresholds_5": "Research gap",
+   "tier_thresholds_20": "Research gap",
+   "tier_without_null_trial_rule": "Research gap"
+  }
+ ],
+ "tier_changes": {
+  "tier_all_designs": [],
+  "tier_strong_bound": [
+   [
+    "Active case finding",
+    "Ready to scale with monitoring",
+    "Implement and evaluate in India"
+   ],
+   [
+    "TB preventive treatment",
+    "Ready to scale with monitoring",
+    "Implement and evaluate in India"
+   ],
+   [
+    "Nutritional support",
+    "Ready to scale with monitoring",
+    "Implement and evaluate in India"
+   ]
+  ],
+  "tier_thresholds_5": [
+   [
+    "Integrated TB-HIV-diabetes care",
+    "Implement and evaluate in India",
+    "Ready to scale with monitoring"
+   ]
+  ],
+  "tier_thresholds_20": [
+   [
+    "Nutritional support",
+    "Ready to scale with monitoring",
+    "Implement and evaluate in India"
+   ],
+   [
+    "Private-sector engagement",
+    "Implement and evaluate in India",
+    "Evaluate before (further) scale-up"
+   ],
+   [
+    "Integrated TB-HIV-diabetes care",
+    "Implement and evaluate in India",
+    "Evaluate before (further) scale-up"
+   ]
+  ]
+ },
+ "tier_counts": {
+  "Ready to scale with monitoring": 4,
+  "Evaluate before (further) scale-up": 4,
+  "Implement and evaluate in India": 2,
+  "Research gap": 2
+ },
+ "null_trial_rule_moved": [
+  [
+   "Airborne infection prevention and control",
+   "Implement and evaluate in India",
+   "Evaluate before (further) scale-up",
+   "1 null / 0 favourable trials"
+  ],
+  [
+   "Bovine TB control",
+   "Implement and evaluate in India",
+   "Evaluate before (further) scale-up",
+   "3 null / 0 favourable trials"
+  ]
+ ],
+ "null_trial_rule_applies": [
+  "Rapid molecular diagnostics (Xpert, Truenat)",
+  "Airborne infection prevention and control",
+  "Bovine TB control"
+ ],
+ "tier_changed_any": 5,
+ "strong_top3": 117,
+ "strong_total": 154,
+ "india_top3": 56,
+ "derived_shares": {
+  "strong_top3_of_strong": 0.76,
+  "sonnet_of_analysed": 0.235,
+  "changed_of_first_round": 0.048,
+  "rct_share_of_evaluations": 0.115,
+  "rct_nulls_of_all_nulls": "34/71",
+  "pasteurisation_eval_share": 0.004,
+  "accuracy_xpert": "84/116",
+  "accuracy_seq": "72/92",
+  "bovine_high_income": 41,
+  "bovine_trials_directional_fav": "0/3",
+  "india_one_health": 1,
+  "india_strong_one_health": 0
+ },
+ "groups": {
+  "Human health": {
+   "records": 2710,
+   "evaluations": 665,
+   "share": [
+    0.245,
+    0.23,
+    0.262
+   ],
+   "tier2": 1056,
+   "off_topic": 989,
+   "india": 78,
+   "strong": 149
+  },
+  "One Health": {
+   "records": 862,
+   "evaluations": 81,
+   "share": [
+    0.094,
+    0.076,
+    0.115
+   ],
+   "tier2": 239,
+   "off_topic": 542,
+   "india": 1,
+   "strong": 5
+  },
+  "Pasteurisation + wildlife/occupational": {
+   "records": 558,
+   "evaluations": 5,
+   "share": [
+    0.009,
+    0.004,
+    0.021
+   ],
+   "tier2": 72
+  }
+ },
+ "off_topic_terms": {
+  "6": {
+   "off_topic": 251,
+   "mechanical ventilation": 89,
+   "covid": 60
+  },
+  "11": {
+   "off_topic": 237,
+   "brucell": 81,
+   "raw milk": 137
+  },
+  "12": {
+   "off_topic": 244,
+   "brucell": 10,
+   "covid": 9
+  }
+ },
+ "pipeline_crosscheck_mismatches": [],
+ "spot_check": {
+  "ai_final_vs_agreed_before_adjudication_kappa4": 0.57,
+  "ai_final_vs_agreed_before_adjudication_kappa_eval": 0.59,
+  "ai_at_sampling_vs_agreed_kappa4": 0.48,
+  "adjudication_changed_authors_code": 3,
+  "n": 60,
+  "A_vs_B_kappa": 0.81,
+  "A_vs_B_agree": "52/60",
+  "adjudicated_items": 22,
+  "why_counts": {
+   "AI code correct": 1,
+   "broader scope intended": 15,
+   "both defensible": 4,
+   "our code correct": 2
+  },
+  "ai_final_vs_human_kappa4": 0.64,
+  "agree4": "45/60",
+  "ai_final_vs_human_kappa_eval": 0.7,
+  "agree_eval": "53/60",
+  "ai_tier2_human_eval": 7,
+  "kappa4_excluding": 0.78,
+  "n_excluding": 53,
+  "agree4_excluding": "45/53",
+  "ai_at_sampling_vs_human_kappa4": 0.56,
+  "sample_ai_at_sampling": {
+   "no effect or favours control": 10,
+   "not an evaluation of this intervention": 20,
+   "favours intervention": 20,
+   "unclear": 10
+  },
+  "sample_ai_final": {
+   "no effect or favours control": 11,
+   "favours intervention": 22,
+   "not an evaluation of this intervention": 19,
+   "unclear": 8
+  },
+  "human_final": {
+   "no effect or favours control": 8,
+   "unclear": 9,
+   "not an evaluation of this intervention": 12,
+   "favours intervention": 31
+  },
+  "ai_not_eval_sampled": 19,
+  "ai_not_eval_tier2_sampled": 11,
+  "ai_not_eval_offtopic_sampled": 8,
+  "offtopic_human_eval": 0,
+  "ai_eval_human_not": 0,
+  "confusion": [
+   [
+    [
+     "favours intervention",
+     "favours intervention"
+    ],
+    21
+   ],
+   [
+    [
+     "not an evaluation of this intervention",
+     "not an evaluation of this intervention"
+    ],
+    12
+   ],
+   [
+    [
+     "no effect or favours control",
+     "no effect or favours control"
+    ],
+    8
+   ],
+   [
+    [
+     "not an evaluation of this intervention",
+     "favours intervention"
+    ],
+    6
+   ],
+   [
+    [
+     "unclear",
+     "favours intervention"
+    ],
+    4
+   ],
+   [
+    [
+     "unclear",
+     "unclear"
+    ],
+    4
+   ],
+   [
+    [
+     "no effect or favours control",
+     "unclear"
+    ],
+    3
+   ],
+   [
+    [
+     "favours intervention",
+     "unclear"
+    ],
+    1
+   ],
+   [
+    [
+     "not an evaluation of this intervention",
+     "unclear"
+    ],
+    1
+   ]
+  ],
+  "direction_agree_both_eval": "33/41",
+  "sample_by_node": {
+   "Bovine tuberculosis control": 6,
+   "Whole-genome sequencing for drug-susceptibility prediction": 5,
+   "Airborne infection prevention and control": 3,
+   "Milk pasteurisation / dairy food chain": 1,
+   "TB preventive therapy": 10,
+   "Shorter all-oral regimen rollout (BPaL/BPaL-M)": 8,
+   "Wildlife reservoir surveillance / occupational respiratory protection": 1,
+   "Active case finding": 7,
+   "Nutritional support": 7,
+   "Integrated TB-HIV-diabetes care": 3,
+   "Molecular diagnostic scale-up (Xpert MTB/RIF, Xpert MTB/XDR)": 8,
+   "Private-sector engagement": 1
+  },
+  "sample_title_only": 0
+ },
+ "pilot150": {
+  "n": 150,
+  "human_human_kappa": 0.9,
+  "ai_vs_consensus_before": 0.71,
+  "ai_vs_final_consensus": 0.88
+ }
+}
