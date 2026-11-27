@@ -44,9 +44,13 @@ def load(d: Path):
     # batch_* first; recode_* (full text of abstracts the first run cut at 3,500 characters) override them
     # zscope_* (first-round evaluations rechecked against the written scope rules) override both
     files = (sorted((d / "codes").glob("batch_*.codes.jsonl")) + sorted((d / "codes").glob("recode_*.codes.jsonl"))
-             + sorted((d / "codes").glob("zscope_*.codes.jsonl")))
+             + sorted((d / "codes").glob("zscope_*.codes.jsonl"))
+             # ztier_*: widened families and the tier-2 label for every non-evaluation (agreed after the spot check)
+             + sorted((d / "codes").glob("ztier_*.codes.jsonl"))
+             # zz*: full-text checks of codes made from shortened abstracts, and documented manual corrections
+             + sorted((d / "codes").glob("zz*.codes.jsonl")))
     for f in files:
-        recode = f.name.startswith(("recode_", "zscope_"))
+        recode = f.name.startswith(("recode_", "zscope_", "ztier_", "zz"))
         for line in f.read_text(encoding="utf-8").splitlines():
             if not line.strip():
                 continue
@@ -108,6 +112,7 @@ def main() -> None:
         kst = sum(c["code"] == FAV for c in strict)
         ndst = sum(c["code"] in (FAV, NULL) for c in strict)
         strict_counts[nid] = {"k_favours": kst, "n_directional": ndst, "n_total": n}
+        tier2 = sum(c["code"] == NOT and c.get("tier2") is True for _, c in items)
         title_only_ev = sum(p["title_only"] and c["code"] != NOT for p, c in items)
         india = sum(c["code"] != NOT and c.get("setting") == "India" for _, c in items)
         share, lo, hi = wilson(ev, n)
@@ -119,7 +124,8 @@ def main() -> None:
                      "L_ai": f"{B.lower_beta_bound(k, nd):.3f}",
                      "comparative_evaluations": len(strict), "L_ai_strict": f"{B.lower_beta_bound(kst, ndst):.3f}",
                      "SR_or_RCT_evaluations": len(top), "L_ai_SR_RCT": f"{B.lower_beta_bound(ktop, ndtop):.3f}",
-                     "india_evaluations": india, "title_only_evaluations": title_only_ev})
+                     "india_evaluations": india, "title_only_evaluations": title_only_ev,
+                     "tier2_relevant": tier2, "off_topic": n - ev - tier2})
     with (out / "evidence_by_intervention.csv").open("w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=list(rows[0]))
         w.writeheader()
@@ -153,6 +159,9 @@ def main() -> None:
     lines.append("codes overall: " + json.dumps(Counter(c["code"] for _, c in coded).most_common()))
     (out / "summary.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
+    if (out / "spot_check_worksheet.xlsx").exists() or (d / "human_checks").exists():
+        print("\n".join(lines))         # the authors' filled sheet is never regenerated or overwritten
+        return
     # random spot-check sample for the authors: stratified by code, fixed seed, AI code withheld
     rng = random.Random(20261127)
     quota = {FAV: 20, NULL: 10, UNC: 10, NOT: 20}
